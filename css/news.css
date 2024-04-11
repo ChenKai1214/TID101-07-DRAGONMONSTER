@@ -1,0 +1,131 @@
+@import url(reset.css);
+
+body {
+  width: 100%;
+  background: url(../圖片/首頁背景.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body h1 {
+  text-align: center;
+}
+
+/*  主選單*/
+nav {
+  background-color: white;
+  position: fixed; /*選單固定*/
+  width: 100%;
+  box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+  border: 1px solid black;
+  z-index: 1;
+}
+nav ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+nav li {
+  padding-right: 30px;
+}
+nav li a {
+  box-sizing: border-box;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+nav img {
+  width: 107.13px;
+  height: 90px;
+}
+.nav_logo {
+  margin-right: auto;
+}
+
+/* 資訊頂部圖片 */
+header {
+  width: 100%;
+}
+header img {
+  width: 100%;
+  z-index: 2;
+}
+
+/* 最新資訊 */
+.whiteFrame1 {
+  width: 100%;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+span {
+  display: block;
+  margin: 0 auto;
+  background-image: url(../圖片/標題黑框.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  margin-top: -110px;
+}
+.newsaInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+.news {
+  width: 400px;
+  height: 359px;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+}
+.news img {
+  width: 400px;
+  border-bottom: 3px solid black;
+}
+.info {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+input {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0 auto;
+  border: 1px solid rgb(211, 39, 39);
+  font-size: 30px;
+  margin-bottom: -50px;
+  box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+}
+.whiteFrame2 {
+  width: 100%;
+}
+.btn-totop {
+  float: right;
+  display: block;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.btn-totop img {
+  width: 120px;
+}
+
+/* 頁尾  */
+footer {
+  margin-top: 180px;
+  padding-top: 10px;
+  height: 113px;
+  background-color: black;
+  color: white;
+}

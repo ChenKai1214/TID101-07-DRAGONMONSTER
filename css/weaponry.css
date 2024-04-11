@@ -1,0 +1,189 @@
+@import url(reset.css);
+
+body {
+  width: 100%;
+  background: url(../圖片/首頁背景.jpg);
+}
+body h1 {
+  text-align: center;
+}
+
+/*  主選單*/
+nav {
+  background-color: white;
+  position: fixed; /*選單固定*/
+  width: 100%;
+  box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+  border: 1px solid black;
+  z-index: 2;
+}
+nav ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+nav li {
+  padding-right: 30px;
+}
+nav li a {
+  box-sizing: border-box;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+nav img {
+  width: 107.13px;
+  height: 90px;
+}
+.nav_logo {
+  margin-right: auto;
+}
+section {
+  width: 100%;
+}
+
+/* 武器頂部圖片 */
+header img {
+  width: 100%;
+}
+
+/* 武器介紹 */
+span {
+  display: block;
+  margin: 0 auto;
+  background-image: url(../圖片/標題黑框1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 110px;
+  background-position: top;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.gameinfo {
+  text-align: center;
+  font-size: 36px;
+  padding-top: 50px;
+  line-height: 1.5;
+}
+
+/* 武器介紹大圖  */
+section {
+  display: flex;
+  border: 1px solid black;
+  width: 893px;
+  transform: skewY(-5.47deg);
+  overflow: hidden;
+  box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+}
+h2 {
+  font-size: 96px;
+}
+.weaponry1 {
+  background-image: url(../圖片/太刀.png);
+}
+.weaponry1_text {
+  padding-top: 70px;
+  margin-left: -90px;
+}
+.weaponry1:hover .weaponry1_text {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.weaponry1:hover .weaponry1_img {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+}
+.weaponry2 {
+  margin-left: auto;
+  background-image: url(../圖片/雙劍.png);
+}
+.weaponry2_text {
+  width: 135px;
+  padding-top: 40px;
+  margin-left: 90px;
+}
+.weaponry2:hover .weaponry2_text {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.weaponry2:hover .weaponry2_img {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+}
+.weaponry3 {
+  margin-top: 120px;
+  background-image: url(../圖片/斬擊斧.png);
+}
+.weaponry3_text {
+  width: 135px;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+.weaponry3:hover .weaponry3_text {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.weaponry3:hover .weaponry3_img {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+}
+.weaponry4 {
+  margin-left: auto;
+  background-image: url(../圖片/大錘.png);
+}
+.weaponry4_text {
+  width: 135px;
+  padding-top: 50px;
+  margin-left: 90px;
+}
+.weaponry4:hover .weaponry4_text {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.weaponry4:hover .weaponry4_img {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+}
+.weaponry5 {
+  margin-top: 120px;
+  background-image: url(../圖片/狩獵笛.png);
+}
+.weaponry5_text {
+  width: 135px;
+  padding-top: 25px;
+  margin-left: 125px;
+}
+.weaponry5:hover .weaponry5_text {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+  color: white;
+}
+.weaponry5:hover .weaponry5_img {
+  transition: all 1s ease-out;
+  transform: scale(1.2, 1.2);
+}
+.btn-totop {
+  float: right;
+  display: block;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.btn-totop img {
+  width: 120px;
+}
+
+/* 頁尾  */
+footer {
+  margin-top: 180px;
+  padding-top: 10px;
+  height: 113px;
+  background-color: black;
+  color: white;
+}
