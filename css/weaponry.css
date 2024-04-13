@@ -28,9 +28,18 @@ nav li {
 nav li a {
   box-sizing: border-box;
 }
-a:link {
+a {
   text-decoration: none;
   color: black;
+}
+.nav_info:hover a {
+  color: #3c86d1;
+  padding-bottom: 35px;
+  border-bottom: 3px solid #ff003d;
+}
+.nav_weaponry {
+  padding-bottom: 35px;
+  border-bottom: 3px solid #3c86d1;
 }
 nav img {
   width: 107.13px;
