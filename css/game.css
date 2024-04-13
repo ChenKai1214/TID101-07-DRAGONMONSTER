@@ -46,7 +46,7 @@ header img {
 }
 
 /* 遊戲介紹  */
-section {
+main {
   width: 100%;
 }
 span {
@@ -72,10 +72,13 @@ h1 {
 /* 詳細遊戲介紹 */
 section {
   display: flex;
+  max-width: 100%;
+  height: auto;
 }
 .game1 {
   display: block;
   width: 716px;
+  /* height: 503.4px; */
   border: 1px solid black;
   background-color: white;
   margin-left: 50px;
@@ -91,11 +94,15 @@ section {
   border: 1px solid black;
   background-color: white;
   width: 570px;
+  /* max-width: 50%; */
+  /* height: auto; */
   margin-top: -10px;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
 }
 .game_img2 {
   width: 730px;
+  /* max-width: 100%; */
+  height: auto;
   margin-left: -43px;
   margin-top: -10px;
 }
@@ -180,3 +187,13 @@ footer {
   background-color: black;
   color: white;
 }
+
+/* @media screen and (max-width: 1538px) {
+  .game_all_info {
+    flex-direction: column;
+    height: auto;
+  }
+} */
+/* .game_all_info {
+  width: 100%;
+} */

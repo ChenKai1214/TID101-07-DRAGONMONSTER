@@ -2,7 +2,12 @@
 
 body {
   width: 100%;
-  background: url(../圖片/首頁背景.jpg);
+  background: url(../圖片/main_bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: left top; */
+  /* background-attachment: scroll; */
 }
 body h1 {
   text-align: center;
