@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination Example</title>
+  </head>
+  <body>
+    <!-- <style>
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .pagination button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+      }
+      .pagination button.active {
+        background-color: #007bff;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+    
+      <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
+        <li>Item 10</li>
+      </ul>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const itemsPerPage = 3; // 每页显示的项目数
+        const list = document.getElementById("list");
+        const pagination = document.getElementById("pagination");
+
+        function showPage(pageNumber) {
+          const startIndex = (pageNumber - 1) * itemsPerPage;
+          const endIndex = startIndex + itemsPerPage;
+          const lis = list.getElementsByTagName("li");
+          for (let i = 0; i < lis.length; i++) {
+            if (i >= startIndex && i < endIndex) {
+              lis[i].style.display = "block";
+            } else {
+              lis[i].style.display = "none";
+            }
+          }
+        }
+
+        function createPaginationButtons() {
+          const totalItems = list.getElementsByTagName("li").length;
+          const totalPages = Math.ceil(totalItems / itemsPerPage);
+          for (let i = 1; i <= totalPages; i++) {
+            const button = document.createElement("button");
+            button.innerText = i;
+            button.addEventListener("click", function () {
+              showPage(i);
+              highlightButton(i);
+            });
+            pagination.appendChild(button);
+          }
+          showPage(1); 
+          highlightButton(1); 
+        }
+
+        function highlightButton(pageNumber) {
+          const buttons = pagination.getElementsByTagName("button");
+          for (let button of buttons) {
+            button.classList.remove("active");
+          }
+          buttons[pageNumber - 1].classList.add("active");
+        }
+
+        createPaginationButtons();
+      });
+    </script> -->
+    Swal.fire({ title: "<strong>HTML <u>example</u></strong
+    >", icon: "info", html: ` You can use <b>bold text</b>,
+    <a href="#">links</a>, and other HTML tags `, showCloseButton: true,
+    showCancelButton: true, focusConfirm: false, confirmButtonText: `
+    <i class="fa fa-thumbs-up"></i> Great! `, confirmButtonAriaLabel: "Thumbs
+    up, great!", cancelButtonText: `
+    <i class="fa fa-thumbs-down"></i>
+    `, cancelButtonAriaLabel: "Thumbs down" });
+  </body>
+</html>

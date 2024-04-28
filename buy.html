@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/buy.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>商品資訊</title>
   </head>
   <body>
@@ -16,13 +21,33 @@
         <li class="nav_info"><a href="./news.html">最新資訊</a></li>
         <li class="nav_info"><a href="./game.html">遊戲介紹</a></li>
         <li class="nav_info"><a href="./weaponry.html">狩獵武器</a></li>
-        <li class="nav_info"><a href="./monster.html">魔物</a></li>
+        <li class="nav_info"><a href="./monsterAll.html">魔物</a></li>
         <li class="nav_info">
           <a class="nav_buy" href="./buy.html">商品資訊</a>
         </li>
       </ul>
     </nav>
-
+    <!-- 漢堡選單 -->
+    <div class="menu">
+      <img src="./圖片/menu.png" alt="" />
+    </div>
+    <article class="hamburger">
+      <div class="menu_close">
+        <img src="./圖片/menu_close.png" alt="" />
+      </div>
+      <div>
+        <a href="./index.html"><img src="./圖片/logo1.svg" alt="" /></a>
+      </div>
+      <ul class="hamburger_ul">
+        <li class="hamburger_li"><a href="./news.html">最新資訊</a></li>
+        <li class="hamburger_li"><a href="./game.html">遊戲介紹</a></li>
+        <li class="hamburger_li"><a href="./weaponry.html">狩獵武器</a></li>
+        <li class="hamburger_li"><a href="./monsterAll.html">魔物</a></li>
+        <li class="hamburger_li">
+          <a class="menu_buy" href="./buy.html">商品資訊</a>
+        </li>
+      </ul>
+    </article>
     <!-- 商品 -->
     <main>
       <!-- 商品上半部 -->
@@ -30,7 +55,32 @@
       <section class="buy_main">
         <article class="buy_info">
           <h1>DRAGON MONSTER RISE</h1>
-          <img class="buy_bg" src="./圖片/buy1_main.jpg" alt="" />
+          <!-- 輪播 -->
+          <!-- Slider main container -->
+          <div class="swiper swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./圖片/buy00.png" alt="" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="./圖片/buy01.jpg" alt="" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="./圖片/buy02.jpg" alt="" />
+              </div>
+
+              <div class="swiper-slide">
+                <img src="./圖片/buy03.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+
           <h3>
             【新增內容】令《MONSTER HUNTER
             RISE》的世界變得更廣闊和更有樂趣的超大型新增內容。
@@ -39,9 +89,32 @@
             RISE: SUNBREAK 豪華版》同時發售，請注意避免重複購買。
             若在遊戲啟動時購入追加內容，須重啟遊戲才會顯示所購的追加內容。
           </h3>
+          <div>
+            <ul>
+              <li>支援平台: Nintendo Switch</li>
+              <li>遊戲類型: 動作</li>
+              <li>發售日: 2021/3/26</li>
+              <li>遊玩人數: 1人</li>
+              <li>網路通訊遊玩人數: 1~4人</li>
+            </ul>
+            <ul>
+              <li>
+                對應語言: 繁體中文, 簡體中文, 英文, 日文 , 韓文, 法文, 義大利文,
+                德文, 西班牙文, 葡萄牙文, 俄羅斯文
+              </li>
+              <li>所需容量: 10.5GB</li>
+              <li>鄰近主機通訊的遊玩人數: 1~4人</li>
+              <li>支援的控制器: Nintendo Switch Pro 控制器</li>
+              <li>遊玩模式: TV模式, 桌上模式, 手提模式</li>
+            </ul>
+          </div>
         </article>
         <article class="buy_money">
-          <h2>NT 1600</h2>
+          <span class="main-Discount">
+            <h5 class="Discount">85折</h5>
+            <h5 class="main-Discount_money">NT 1600</h5>
+          </span>
+          <h2>NT 1360</h2>
           <input
             type="button"
             value="購買"
@@ -54,25 +127,55 @@
       <section class="buy_more">
         <p>含有此商品的組合商品</p>
         <ul>
-          <li>
+          <li class="buy_more-li">
             <a href="./buy.html"><img src="./圖片/商品2.jpg" alt="" /></a>
-            <a href="./buy.html"><h3>DRAGON MONSTER RISE豪華組合包</h3></a>
-            <h3 class="buy_money2-1">NT 2000</h3>
+            <span>
+              <a href="./buy.html"
+                ><h3 class="buy_more-title">
+                  DRAGON MONSTER RISE豪華組合包
+                </h3></a
+              >
+              <a href="./buy.html"><h3 class="buy_money2-1">NT 2000</h3></a>
+            </span>
           </li>
-          <li>
+          <li class="buy_more-li">
             <a href="./buy.html"><img src="./圖片/商品3.jpg" alt="" /></a>
-            <a href="./buy.html"><h3>DRAGON MONSTER SUNBREAK</h3></a>
-            <h3 class="buy_money2-2">NT 1750</h3>
+            <span>
+              <a href="./buy.html"
+                ><h3 class="buy_more-title">DRAGON MONSTER SUNBREAK</h3></a
+              >
+              <a href="./buy.html"><h5 class="Discount">9折</h5></a>
+              <a href="./buy.html">
+                <h4 class="Discount-money">NT 1575</h4>
+                <h3 class="buy_money2-2">NT 1750</h3></a
+              >
+            </span>
           </li>
-          <li>
+          <li class="buy_more-li">
             <a href="./buy.html"><img src="./圖片/商品4.jpg" alt="" /></a>
-            <a href="./buy.html"><h3>DRAGON MONSTER RISE + SUNBREAK</h3></a>
-            <h3 class="buy_money2-3">NT 3200</h3>
+            <span>
+              <a href="./buy.html"
+                ><h3 class="buy_more-title">
+                  DRAGON MONSTER RISE + SUNBREAK
+                </h3></a
+              >
+              <a href="./buy.html"><h3 class="buy_money2-3">NT 3200</h3></a>
+            </span>
           </li>
-          <li>
+          <li class="buy_more-li">
             <a href="./buy.html"><img src="./圖片/商品5.jpg" alt="" /></a>
-            <a href="./buy.html"><h3>DRAGON MONSTER SUNBREAK豪華版</h3></a>
-            <h3 class="buy_money2-4">NT 2500</h3>
+            <span>
+              <a href="./buy.html"
+                ><h3 class="buy_more-title">
+                  DRAGON MONSTER SUNBREAK豪華版
+                </h3></a
+              >
+              <a href="./buy.html"><h5 class="Discount">85折</h5></a>
+              <a href="./buy.html">
+                <h4 class="Discount-money">NT 2125</h4>
+                <h3 class="buy_money2-4">NT 2500</h3>
+              </a>
+            </span>
           </li>
         </ul>
       </section>
@@ -88,5 +191,8 @@
         Copyright©本網站為TibaMe_前端設計工程師班學員專題成果作品,<br />本平台僅供學習、展示之用,不會用於商業,如使用到的圖片或文字有任何侵權,<br />請聯繫我的信箱:cj3wj4xm6@gmail.com,會立刻下架,謝謝。
       </p>
     </footer>
+    <script src="./css/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./css/buy.js"></script>
   </body>
 </html>

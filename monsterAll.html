@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/monsterAll.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/monsterAll_rwd.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -16,53 +22,224 @@
         <li class="nav_info"><a href="./news.html">最新資訊</a></li>
         <li class="nav_info"><a href="./game.html">遊戲介紹</a></li>
         <li class="nav_info"><a href="./weaponry.html">狩獵武器</a></li>
-        <li class="nav_info"><a href="./monster.html">魔物</a></li>
+        <li class="nav_info">
+          <a class="nav_monster" href="./monsterAll.html">魔物</a>
+        </li>
         <li class="nav_info"><a href="./buy.html">商品資訊</a></li>
       </ul>
     </nav>
-    <div class="video-background">
-      <div class="YTPOverlay">
-        <iframe
-          class="video"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ocB8ZjGnIYM?playlist=ocB8ZjGnIYM&start=29&end=35&mute=1&autoplay=1&loop=1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <article>
-        <ul>
-          <li>
-            <img src="./圖片/img01.png" alt="" />
-            <p>金獅子</p>
-          </li>
-          <li>
-            <img src="./圖片/img01.png" alt="" />
-            <p>金獅子</p>
-          </li>
-          <li>
-            <img src="./圖片/img01.png" alt="" />
-            <p>金獅子</p>
-          </li>
-          <li>
-            <img src="./圖片/img01.png" alt="" />
-            <p>金獅子</p>
-          </li>
-          <li>
-            <img src="./圖片/img01.png" alt="" />
-            <p>金獅子</p>
-          </li>
-          <li>
-            <img src="./圖片/img01.png" alt="" />
-            <p>金獅子</p>
-          </li>
-        </ul>
-      </article>
-      <main></main>
+    <!-- 漢堡選單 -->
+    <div class="menu">
+      <img src="./圖片/menu.png" alt="" />
     </div>
+    <div class="hamburger">
+      <div class="menu_close">
+        <img src="./圖片/menu_close.png" alt="" />
+      </div>
+      <div>
+        <a href="./index.html"><img src="./圖片/logo1.svg" alt="" /></a>
+      </div>
+      <ul class="hamburger_ul">
+        <li class="hamburger_li"><a href="./news.html">最新資訊</a></li>
+        <li class="hamburger_li"><a href="./game.html">遊戲介紹</a></li>
+        <li class="hamburger_li"><a href="./weaponry.html">狩獵武器</a></li>
+        <li class="hamburger_li">
+          <a class="menu_monster" href="./monsterAll.html">魔物</a>
+        </li>
+        <li class="hamburger_li"><a href="./buy.html">商品資訊</a></li>
+      </ul>
+    </div>
+
+    <!-- 影片 -->
+    <div class="moster_video">
+      <video autoplay muted loop class="video">
+        <source src="./圖片/魔物介面影片.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- 新魔物 -->
+    <div>
+      <span>
+        <img src="./圖片/標題黑框blue.png" alt="" />
+        <h1>魔物</h1>
+        <p>與獵人對峙的魔物</p>
+      </span>
+      <img class="redFrame1" src="./圖片/layer_bg-t (1).png" alt="" />
+    </div>
+    <main>
+      <article class="monster-title">
+        <img src="./圖片/雙小金框.png" alt="" />
+        <h2>新增魔物</h2>
+      </article>
+      <section class="monster2">
+        <img class="monster2_pc" src="圖片/雷狼龍main.png" alt="" />
+        <img
+          class="monster2_phone"
+          src="圖片/apex-zinogre_main-sp.png"
+          alt=""
+        />
+        <div class="import-momster2">
+          <h3>雷狼龍</h3>
+          <h4>
+            冠有「首領」之名的雷狼龍。
+            全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。
+            前腳比起一般的個體更加發達，其攻擊能發出萬千雷電，撕裂一切敵人。
+          </h4>
+        </div>
+        <!-- 輪播 -->
+        <!-- Slider main container -->
+        <div class="swiper swiper1">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./圖片/apex-zinogre_img01.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./圖片/apex-zinogre_img02.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="monster1">
+        <img class="monster1_pc" src="圖片/怨虎龍.png" alt="" />
+        <img class="monster1_phone" src="圖片/magnamalo_main-sp.png" alt="" />
+        <div class="import-momster1">
+          <h3>怨虎龍</h3>
+          <h4>
+            「怨虎龍」是本作的主題魔物。
+            其充滿怒氣的可怕面貌，加上盔甲般充滿威嚴的甲殼，仿如帶著怨念的亡靈武者……
+            獵食其他魔物後，身體會冒出被稱為「鬼火」的紫色氣體，令本身已具壓倒性破壞力的怨虎龍更為強大。
+          </h4>
+        </div>
+        <!-- 輪播 -->
+        <!-- Slider main container -->
+        <div class="swiper swiper2">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./圖片/magnamalo_img01.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./圖片/magnamalo_img02.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="monster3">
+        <img class="monster3_pc" src="圖片/爵銀龍.png" alt="" />
+        <img
+          class="monster3_phone"
+          src="圖片/monster01_main-sp (1).png"
+          alt=""
+        />
+        <div class="import-momster3">
+          <h3>爵銀龍</h3>
+          <h4>
+            因擁有美麗的白銀甲殼，洋溢高貴氣質而得名「爵銀龍」。
+            為了奪取獵物的精氣，會隱身於黑夜中自背後施襲。
+            外表凜然優雅，但一旦收集精氣，便會顯露出兇暴的本性。
+          </h4>
+        </div>
+        <!-- 輪播 -->
+        <!-- Slider main container -->
+        <div class="swiper swiper3">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./圖片/monster01_img01.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./圖片/monster01_img02.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- 魔物選單 -->
+      <article class="all_info">
+        <img src="./圖片/雙小金框.png" alt="" />
+        <h2>魔物一覽</h2>
+      </article>
+      <img class="gold-border1" src="./圖片/雙金框.png" alt="" />
+      <ul class="monsterInfo">
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/金獅子icon.png" alt="" />
+            <p class="info">金獅子</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/黑蝕龍icon.png" alt="" />
+            <p class="info">黑蝕龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/冰咒龍icon.png" alt="" />
+            <p class="info">冰咒龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/嵐龍icon.png" alt="" />
+            <p class="info">嵐龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/迅龍icon.png" alt="" />
+            <p class="info">迅龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/天慧龍icon.png" alt="" />
+            <p class="info">天慧龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/爆鱗龍icon.png" alt="" />
+            <p class="info">爆鱗龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/怨虎龍icon.png" alt="" />
+            <p class="info">怨虎龍</p>
+          </a>
+        </li>
+        <li class="monsters">
+          <a href="./monster.html">
+            <img src="./圖片/熔翁龍icon.png" alt="" />
+            <p class="info">熔翁龍</p>
+          </a>
+        </li>
+      </ul>
+      <img class="gold-border" src="./圖片/雙金框.png" alt="" />
+      <span class="btn-totop"
+        ><a href="./news.html"><img src="./圖片/btn-totop.png" alt="" /></a
+      ></span>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer>
+      <p>
+        Copyright©本網站為TibaMe_前端設計工程師班學員專題成果作品,<br />本平台僅供學習、展示之用,不會用於商業,如使用到的圖片或文字有任何侵權,<br />請聯繫我的信箱:cj3wj4xm6@gmail.com,會立刻下架,謝謝。
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./css/monsterAll.js"></script>
+    <script src="./css/menu.js"></script>
   </body>
 </html>

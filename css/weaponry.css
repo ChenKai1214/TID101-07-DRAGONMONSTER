@@ -2,7 +2,10 @@
 
 body {
   width: 100%;
-  background: url(../圖片/首頁背景.jpg);
+  background: url(../圖片/武器封面.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 body h1 {
   text-align: center;
@@ -16,6 +19,8 @@ nav {
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
   border: 1px solid black;
   z-index: 2;
+  top: 0;
+  left: 0;
 }
 nav ul {
   display: flex;
@@ -51,6 +56,60 @@ nav img {
 section {
   width: 100%;
 }
+/* 漢堡 */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+  display: none;
+}
+.menu_weap {
+  border-bottom: 3px solid #3c86d1;
+}
+.menu_close {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+}
+.hamburger {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: fixed;
+  display: none;
+}
+
+.hamburger a img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 40%;
+}
+.hamburger_ul {
+  height: 80%;
+  /* display: flex;
+  flex-direction: column; */
+}
+.hamburger_li {
+  text-align: center;
+  font-size: 50px;
+  /* padding-bottom: 4%; */
+  height: 13%;
+}
+.hamburger_li:hover a {
+  color: #3c86d1;
+  border-bottom: 3px solid #ff003d;
+}
 
 /* 武器頂部圖片 */
 header img {
@@ -61,24 +120,64 @@ header img {
 span {
   display: block;
   margin: 0 auto;
-  background-image: url(../圖片/標題黑框1.png);
+
+  /* background-image: url(../圖片/標題黑框blue.png); */
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 110px;
   background-position: top;
+  margin-top: 40%;
 }
 h1 {
   font-size: 60px;
   font-weight: bolder;
+  margin-top: -58px;
+  color: white;
+  text-shadow: 2px 3px 5px #4d4d4d;
+}
+
+/* background: url(../圖片/layer_bg-t.png); */
+
+.title_border {
+  display: block;
+  width: auto;
+  /* margin-left: 36%; */
+  margin: 0 auto;
+}
+
+/* 武器介紹大圖  */
+main {
+  width: 100%;
+  /* height: 140%; */
+  background: url(../圖片/藍色斜邊背景1.png);
+  margin-top: -20%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .gameinfo {
   text-align: center;
   font-size: 36px;
-  padding-top: 50px;
+  padding-top: 20px;
   line-height: 1.5;
+  color: white;
+  padding-top: 23%;
 }
-
-/* 武器介紹大圖  */
+article {
+  margin-bottom: 150px;
+}
+article img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+article h3 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin-top: -95px;
+  font-weight: bolder;
+  text-shadow: 2px 3px 5px #4d4d4d;
+}
 section {
   display: flex;
   border: 1px solid black;
@@ -86,16 +185,37 @@ section {
   transform: skewY(-5.47deg);
   overflow: hidden;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+  border: 15px double #3c86d1;
+  background-color: white;
+  align-items: center;
+  /* opacity: 0.5; */
+}
+section:hover {
+  background-color: #3c86d1;
+  border: 15px double white;
+  /* opacity: 1; */
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
+  box-shadow: 0 0 40px #037efa;
+  cursor: pointer;
 }
 h2 {
   font-size: 96px;
 }
 .weaponry1 {
-  background-image: url(../圖片/太刀.png);
+  /* background-image: url(../圖片/太刀.png); */
+  width: 57.5%;
+  /* height: 40%; */
+}
+.weaponry1_img {
+  display: block;
+  width: 100%;
 }
 .weaponry1_text {
-  padding-top: 70px;
-  margin-left: -90px;
+  width: 100%;
+  /* padding-top: 45px; */
+  /* margin-left: -105px; */
+  margin-left: -10%;
 }
 .weaponry1:hover .weaponry1_text {
   transition: all 1s ease-out;
@@ -108,12 +228,19 @@ h2 {
 }
 .weaponry2 {
   margin-left: auto;
-  background-image: url(../圖片/雙劍.png);
+  margin-top: 10%;
+  width: 57.5%;
+  /* background-image: url(../圖片/雙刀icon_ic.png);
+  background-size: contain; */
+}
+.weaponry2_img {
+  width: 100%;
 }
 .weaponry2_text {
-  width: 135px;
-  padding-top: 40px;
+  /* width: 135px; */
+  /* padding-top: 40px; */
   margin-left: 90px;
+  /* margin-left: 68%; */
 }
 .weaponry2:hover .weaponry2_text {
   transition: all 1s ease-out;
@@ -125,12 +252,16 @@ h2 {
   transform: scale(1.2, 1.2);
 }
 .weaponry3 {
-  margin-top: 120px;
-  background-image: url(../圖片/斬擊斧.png);
+  margin-top: 10%;
+  width: 57.5%;
+  /* background-image: url(../圖片/斬擊斧2.png); */
+}
+.weaponry3_img {
+  width: 100%;
 }
 .weaponry3_text {
-  width: 135px;
-  padding-top: 15px;
+  /* width: 135px; */
+  /* padding-top: 15px; */
   margin-left: 30px;
 }
 .weaponry3:hover .weaponry3_text {
@@ -144,11 +275,16 @@ h2 {
 }
 .weaponry4 {
   margin-left: auto;
-  background-image: url(../圖片/大錘.png);
+  margin-top: 10%;
+  width: 57.5%;
+  /* background-image: url(../圖片/大錘.png); */
+}
+.weaponry4_img {
+  width: 100%;
 }
 .weaponry4_text {
-  width: 135px;
-  padding-top: 50px;
+  /* width: 135px; */
+  /* padding-top: 50px; */
   margin-left: 90px;
 }
 .weaponry4:hover .weaponry4_text {
@@ -161,13 +297,17 @@ h2 {
   transform: scale(1.2, 1.2);
 }
 .weaponry5 {
-  margin-top: 120px;
-  background-image: url(../圖片/狩獵笛.png);
+  margin-top: 10%;
+  width: 57.5%;
+  /* background-image: url(../圖片/狩獵笛.png); */
+}
+.weaponry5_img {
+  width: 100%;
 }
 .weaponry5_text {
-  width: 135px;
-  padding-top: 25px;
-  margin-left: 125px;
+  /* width: 135px; */
+  /* padding-top: 25px; */
+  margin-left: 105px;
 }
 .weaponry5:hover .weaponry5_text {
   transition: all 1s ease-out;
@@ -181,18 +321,27 @@ h2 {
 .btn-totop {
   float: right;
   display: block;
-  margin-top: 30px;
-  margin-right: 30px;
+  /* margin-top: -250px;
+  margin-right: 30px; */
+  position: fixed;
+  right: 30px;
+  bottom: 0;
 }
 .btn-totop img {
   width: 120px;
 }
-
+.bg_bottom {
+  width: 100%;
+  margin-top: -250px;
+  height: 23vw;
+}
 /* 頁尾  */
 footer {
-  margin-top: 180px;
+  margin-top: -5px;
   padding-top: 10px;
-  height: 113px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  width: 100%;
   background-color: black;
   color: white;
 }

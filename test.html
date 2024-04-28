@@ -4,8 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/test.css" />
+
+    <style>
+      /* 為了美觀，設置彈出視窗的樣式 */
+      .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 2px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      /* 右上角的關閉按鈕樣式 */
+      .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #555;
+      }
+    </style>
   </head>
   <body>
+    <!-- 點擊按鈕後，彈出浮出視窗 -->
+    <button onclick="openPopup()">打開 Google</button>
+
+    <!-- 彈出視窗的 HTML 結構 -->
+    <div id="popup" class="popup" style="display: none">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <iframe
+        src="./monster.html"
+        width="600"
+        height="400"
+        frameborder="0"
+      ></iframe>
+    </div>
+
+    <script>
+      // 打開浮出視窗的函數
+      function openPopup() {
+        document.getElementById("popup").style.display = "block";
+      }
+
+      // 關閉浮出視窗的函數
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+      }
+    </script>
+    <!-- <script>
+      // 警示視窗
+      function showAlert() {
+        alert("這是一個警示視窗！");
+      }
+
+      // 確認視窗
+      function showConfirm() {
+        var result = confirm("確定要執行這個操作嗎？");
+        if (result) {
+          alert("你按下了確定按鈕！");
+        } else {
+          alert("你按下了取消按鈕！");
+        }
+      }
+    </script>
+
+    <button onclick="showAlert()">顯示警示視窗</button>
+    <button onclick="showConfirm()">顯示確認視窗</button> -->
+
+    <!-- <script>
+      function openGoogleWindow() {
+        // 使用 window.open() 方法打開新視窗，並指定 Google 的 URL
+        window.open("https://www.google.com", "_blank", "width=600,height=400");
+      }
+    </script>
+
+    <button onclick="openGoogleWindow()">打開 Google</button> -->
+
     <!-- <iframe
       id="iframe_YTP_1712738634761"
       class="playerBox"
@@ -78,9 +161,9 @@
         }
       }
     </style> -->
-    <div></div>
+    <!-- <div></div> -->
 
-    <iframe
+    <!-- <iframe
       width="560"
       height="315"
       src="https://www.youtube.com/embed/ocB8ZjGnIYM?si=GihTfukh1BQd4qLO&amp;controls=0&amp;start=29&amp;end=35"
@@ -89,6 +172,45 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
-    ></iframe>
+    ></iframe> -->
+
+    <!-- <div class="carousel">
+      <div class="container">
+        <div class="content red">1</div>
+        <div class="content yellow">2</div>
+        <div class="content blue">3</div>
+        <div class="content purple">4</div>
+      </div>
+    </div>
+    <div class="btnContainer">
+      <button class="btn btn-prev">&larr;</button>
+      <button class="btn btn-next">&rarr;</button>
+    </div>
+    <script src="./css/test.js"></script> -->
+
+    <!-- <video width="100%" autoplay muted loop id="myVideo">
+      <source src="./圖片/魔物介面影片.mp4" type="video/mp4" />
+    </video> -->
+
+    <!-- 輪播 -->
+    <!-- <div class="carousel">
+      <div class="container">
+        <div class="content red"><img src="./圖片/迅龍icon.png" alt="" /></div>
+        <div class="content yellow">
+          <img src="./圖片/迅龍icon.png" alt="" />
+        </div>
+        <div class="content blue"><img src="./圖片/迅龍icon.png" alt="" /></div>
+        <div class="content purple">
+          <img src="./圖片/迅龍icon.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <button class="btn btn_prev">&larr;</button>
+      <button class="btn btn_next">&rarr;</button>
+    </div>
+    <script src="./css/test.js"></script> -->
+
+    <!-- Slider main container -->
   </body>
 </html>

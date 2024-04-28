@@ -3,6 +3,10 @@
 body {
   width: 100%;
   background: url(../圖片/首頁背景.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
 }
 body h1 {
   text-align: center;
@@ -48,6 +52,60 @@ nav img {
 .nav_logo {
   margin-right: auto;
 }
+/* 漢堡 */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+  display: none;
+}
+.menu_game {
+  border-bottom: 3px solid #3c86d1;
+}
+.menu_close {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+}
+.hamburger {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: fixed;
+  display: none;
+}
+
+.hamburger a img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 40%;
+}
+.hamburger_ul {
+  height: 80%;
+  /* display: flex;
+  flex-direction: column; */
+}
+.hamburger_li {
+  text-align: center;
+  font-size: 50px;
+  /* padding-bottom: 4%; */
+  height: 13%;
+}
+.hamburger_li:hover a {
+  color: #3c86d1;
+  border-bottom: 3px solid #ff003d;
+}
 
 /* 遊戲介紹頂部圖片 */
 header img {
@@ -67,9 +125,14 @@ span {
   margin-bottom: 110px;
   background-position: top;
 }
+/* span img {
+  display: block;
+  margin: 0 auto;
+} */
 h1 {
   font-size: 60px;
   font-weight: bolder;
+  /* margin-top: 50px; */
 }
 .gameinfo {
   text-align: center;
@@ -79,6 +142,9 @@ h1 {
 }
 
 /* 詳細遊戲介紹 */
+main {
+  overflow: hidden;
+}
 section {
   display: flex;
   max-width: 100%;
@@ -90,14 +156,18 @@ section {
   /* height: 503.4px; */
   border: 1px solid black;
   background-color: white;
-  margin-left: 50px;
-  margin-left: 100px;
+  /* margin-left: 50px;
+  margin-left: 100px; */
+  margin-left: 8%;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+}
+.game1_text {
+  margin-right: 5%;
 }
 .game_img1 {
   width: 730px;
   margin-top: -45px;
-  padding-left: 7px;
+  padding-left: 1%;
 }
 .game2 {
   border: 1px solid black;
@@ -107,20 +177,26 @@ section {
   /* height: auto; */
   margin-top: -10px;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+  margin-right: 5%;
 }
 .game_img2 {
   width: 730px;
+  /* width: 800px; */
   /* max-width: 100%; */
   height: auto;
   margin-left: -43px;
-  margin-top: -10px;
+  margin-top: -1.5%;
+}
+.game2_text {
+  margin-right: 2%;
 }
 .game3 {
   border: 1px solid black;
   background-color: white;
-  margin-left: 100px;
+  /* margin-left: 100px;
+  margin-left: 270px; */
+  margin-left: 20%;
   width: 550px;
-  margin-left: 270px;
   margin-top: -20px;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
 }
@@ -128,6 +204,9 @@ section {
   width: 730px;
   padding-right: 20px;
   margin-left: -200px;
+}
+.game3_text {
+  margin-right: 5%;
 }
 div {
   display: flex;
@@ -139,7 +218,7 @@ div {
   width: 600px;
 }
 .game1_text h2 {
-  padding-bottom: 30px;
+  padding-bottom: 3%;
   font-weight: bolder;
   font-size: 45px;
 }
@@ -154,7 +233,7 @@ div {
   margin-left: 100px;
 }
 .game2_text h2 {
-  padding-bottom: 30px;
+  padding-bottom: 3%;
   font-weight: bolder;
   font-size: 45px;
   padding-left: 20px;
@@ -170,7 +249,7 @@ div {
   width: 600px;
 }
 .game3_text h2 {
-  padding-bottom: 30px;
+  padding-bottom: 3%;
   font-weight: bolder;
   font-size: 45px;
 }
@@ -190,9 +269,10 @@ div {
 
 /* 頁尾  */
 footer {
-  margin-top: 180px;
   padding-top: 10px;
-  height: 113px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  width: 100%;
   background-color: black;
   color: white;
 }

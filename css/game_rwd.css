@@ -1,0 +1,254 @@
+@media screen and (max-width: 1200px) {
+  .game1 {
+    width: 636px;
+  }
+  .game_img1 {
+    width: 650px;
+  }
+  .game2 {
+    width: 520px;
+  }
+  .game_img2 {
+    width: 680px;
+  }
+  .game3 {
+    width: 470px;
+  }
+  .game_img3 {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .game1_text h2 {
+    font-size: 40px;
+  }
+  .game1_text h3 {
+    font-size: 23px;
+  }
+  .game2_text h2 {
+    font-size: 40px;
+  }
+  .game2_text h3 {
+    font-size: 23px;
+  }
+  .game3_text h2 {
+    font-size: 40px;
+  }
+  .game3_text h3 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .game1 {
+    width: 586px;
+  }
+  .game_img1 {
+    width: 600px;
+  }
+  .game2 {
+    width: 475px;
+  }
+  .game_img2 {
+    width: 630px;
+  }
+  .game3 {
+    width: 420px;
+  }
+  .game_img3 {
+    width: 600px;
+  }
+  .game1_text h2 {
+    font-size: 35px;
+  }
+  .game1_text h3 {
+    font-size: 20px;
+  }
+  .game2_text h2 {
+    font-size: 35px;
+  }
+  .game2_text h3 {
+    font-size: 20px;
+  }
+  .game3_text h2 {
+    font-size: 35px;
+  }
+  .game3_text h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .game1 {
+    width: 506px;
+  }
+  .game_img1 {
+    width: 520px;
+  }
+  .game2 {
+    width: 415px;
+  }
+  .game_img2 {
+    width: 550px;
+  }
+  .game3 {
+    width: 360px;
+  }
+  .game_img3 {
+    width: 520px;
+  }
+  .game1_text h2 {
+    font-size: 30px;
+  }
+  .game1_text h3 {
+    font-size: 19px;
+  }
+  .game2_text h2 {
+    font-size: 30px;
+  }
+  .game2_text h3 {
+    font-size: 19px;
+  }
+  .game3_text h2 {
+    font-size: 30px;
+  }
+  .game3_text h3 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .game1 {
+    width: 406px;
+  }
+  .game_img1 {
+    width: 420px;
+  }
+  .game2 {
+    width: 315px;
+  }
+  .game_img2 {
+    width: 450px;
+  }
+  .game3 {
+    width: 260px;
+  }
+  .game_img3 {
+    width: 420px;
+  }
+  .game1_text h2 {
+    font-size: 25px;
+  }
+  .game1_text h3 {
+    font-size: 19px;
+  }
+  .game2_text h2 {
+    font-size: 25px;
+  }
+  .game2_text h3 {
+    font-size: 19px;
+  }
+  .game3_text h2 {
+    font-size: 25px;
+  }
+  .game3_text h3 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .gameinfo {
+    font-size: 20px;
+  }
+  section {
+    flex-wrap: wrap;
+  }
+  .game1 {
+    margin: 0 auto;
+    padding-top: 2%;
+    width: 420px;
+  }
+  .game_img1 {
+    width: 420px;
+  }
+  .game2 {
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 420px;
+    /* margin-left: 0.5%; */
+    margin-right: 22%;
+  }
+  .game_img2 {
+    width: 530px;
+    margin-left: -7%;
+  }
+  .game3 {
+    margin: 0 auto;
+    width: 420px;
+    margin-top: 15%;
+    margin-bottom: 4%;
+  }
+  .game_img3 {
+    width: 420px;
+    margin-left: -3%;
+  }
+  .game1_text h2 {
+    text-align: center;
+  }
+  .game1_text h3 {
+    text-align: center;
+  }
+  .game2_text h2 {
+    text-align: center;
+  }
+  .game2_text h3 {
+    text-align: center;
+  }
+  .game3_text h2 {
+    text-align: center;
+  }
+  .game3_text h3 {
+    text-align: center;
+  }
+  .game1_text {
+    margin: 0 auto;
+  }
+  .game2_text {
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .game3_text {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .game2 {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gameinfo {
+    font-size: 15px;
+  }
+  .game1 {
+    width: 390px;
+  }
+  .game_img1 {
+    width: 390px;
+  }
+  .game2 {
+    width: 390px;
+  }
+  .game_img2 {
+    width: 500px;
+  }
+  .game3 {
+    width: 390px;
+  }
+  .game_img3 {
+    width: 390px;
+  }
+}

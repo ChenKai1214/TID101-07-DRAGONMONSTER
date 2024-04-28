@@ -2,7 +2,10 @@
 
 body {
   width: 100%;
-  background-color: rgba(128, 128, 128, 0.13);
+  /* background-color: rgba(128, 128, 128, 0.13); */
+  background: url(../圖片/blue_page_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body h1 {
   text-align: center;
@@ -50,8 +53,12 @@ nav img {
 }
 
 /* 詳細太刀 */
+/* main {
+  background-color: #3c86d1;
+} */
 .info1 {
   display: flex;
+  /* background-color: #3c86d1; */
 }
 .weaponry {
   width: 700px;
@@ -65,16 +72,31 @@ a {
   width: 81px;
   margin-left: auto;
 }
+.weaponry_border {
+  margin-top: -150px;
+}
 h1 {
   font-size: 96px;
   margin-bottom: 50px;
+  /* text-shadow: 2px 3px 5px #4d4d4d; */
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 3px 5px #4d4d4d;
 }
 h3 {
   font-size: 20px;
   line-height: 1.5;
+  margin-top: 25px;
+  color: white;
+  font-weight: bold;
+}
+.close {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
 }
 iframe {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-left: 150px;
 }
 .info2 {
@@ -82,14 +104,36 @@ iframe {
   width: 100%;
   height: 200px;
   margin-bottom: 30px;
+  background: url(../圖片/大邊框.png);
+}
+.skill_title {
+  margin: 0 auto;
+  height: 75px;
+  margin-bottom: 15px;
+  background: url(../圖片/sec-ttl_bg-m\ .png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.skill_title-text {
+  font-size: 55px;
+  padding-top: 10px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 5px #4d4d4d;
 }
 span {
   width: 700px;
   display: flex;
   flex-direction: column;
-  background-color: white;
   padding-left: 30px;
-  border: 1px solid black;
+  background: url(../圖片/elem_pt.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.border {
+  border: 5px double rgb(21, 8, 255);
+  background-color: #3c86d1;
 }
 h2 {
   font-size: 36px;
@@ -101,4 +145,27 @@ h2 {
 .skill {
   width: 575px;
   padding-left: 95px;
+}
+
+/* 輪播 */
+.swiper {
+  --swiper-pagination-color: white;
+}
+.swiper-button-prev {
+  color: white !important;
+}
+.swiper-button-prev:hover {
+  color: black !important;
+}
+.swiper-button-next {
+  color: white !important;
+}
+.swiper-button-next:hover {
+  color: black !important;
+}
+.swiper-button-prev img {
+  width: 50%;
+}
+.swiper-pagination {
+  color: black !important;
 }

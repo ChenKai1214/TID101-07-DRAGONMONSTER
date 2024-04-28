@@ -1,0 +1,159 @@
+/* body {
+  background-color: gray;
+}
+
+.carousel {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px dashed #000;
+  background-color: #fff;
+}
+.content {
+  height: 100px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: rgb(209, 209, 0);
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
+
+.btnContainer {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+} */
+
+/* .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.YTPOverlay {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.YTPOverlay,
+.video-background iframe {
+  /* position: absolute;
+    top: 0;
+    left: 0; */
+/* width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1; */
+/* transform: skewY(5deg); */
+/* margin-top: -100px; */
+/* margin-bottom: -600px; */
+/* } */
+
+/* @media (min-aspect-ratio: 16/9) {
+  .YTPOverlay {
+    height: 100%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .YTPOverlay {
+    width: 100%;
+    left: -100%;
+  }
+} */
+
+/* <style > #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/* .monster_video {
+  height: 100vh;
+  position: relative;
+}
+.video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* 輪播 */
+
+/* .carousel {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px dashed #000;
+  background-color: #fff;
+}
+.content {
+  height: 500px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: rgb(209, 209, 0);
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
+.button {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/*  */
+.swiper {
+  width: 90%;
+  height: 500px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}

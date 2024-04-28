@@ -1,0 +1,262 @@
+@media screen and (max-width: 1200px) {
+  .import-momster1 h3 {
+    font-size: 60px;
+    margin-bottom: 25%;
+  }
+  .import-momster1 h4 {
+    font-size: 25px;
+    margin-top: -7%;
+    /* margin-top: -20%; */
+  }
+  .swiper2 {
+    margin-top: -330px;
+  }
+
+  .import-momster2 h3 {
+    font-size: 60px;
+    margin-bottom: 25%;
+  }
+  .import-momster2 h4 {
+    font-size: 25px;
+    margin-top: -7%;
+    /* margin-top: -20%; */
+  }
+  .swiper1 {
+    margin-top: -310px;
+  }
+  .import-momster3 h3 {
+    font-size: 60px;
+    margin-bottom: 25%;
+  }
+  .import-momster3 h4 {
+    font-size: 25px;
+    margin-top: -7%;
+    /* margin-top: -20%; */
+  }
+  .swiper3 {
+    margin-top: -295px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .import-momster1 h3 {
+    margin-left: 12%;
+  }
+  .import-momster2 h3 {
+    margin-left: 58%;
+  }
+  .import-momster3 h3 {
+    margin-left: 58%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .monsters {
+    width: 500px;
+  }
+  .monsters img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .import-momster1 h3 {
+    font-size: 55px;
+    margin-bottom: 25%;
+  }
+  .import-momster1 h4 {
+    font-size: 20px;
+    margin-top: -7%;
+    /* margin-top: -20%; */
+  }
+  .swiper2 {
+    margin-top: -260px;
+  }
+
+  .import-momster2 h3 {
+    font-size: 55px;
+    margin-bottom: 25%;
+  }
+  .import-momster2 h4 {
+    font-size: 20px;
+    margin-top: -7%;
+    /* margin-top: -20%; */
+  }
+  .swiper1 {
+    margin-top: -260px;
+  }
+  .import-momster3 h3 {
+    font-size: 55px;
+    margin-bottom: 25%;
+  }
+  .import-momster3 h4 {
+    font-size: 20px;
+    margin-top: -7%;
+    /* margin-top: -20%; */
+  }
+  .swiper3 {
+    margin-top: -245px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .moster_video {
+    display: none;
+  }
+  .monster1_pc {
+    display: none;
+  }
+  .monster2_pc {
+    display: none;
+  }
+  .monster3_pc {
+    display: none;
+  }
+  .monster1_phone {
+    display: block;
+  }
+  .monster2_phone {
+    display: block;
+  }
+  .monster3_phone {
+    display: block;
+  }
+  .import-momster2 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .import-momster2 h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 10%;
+    margin-top: -18%;
+  }
+  .import-momster2 h4 {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .import-momster1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .import-momster1 h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 10%;
+    margin-top: -22%;
+  }
+  .import-momster1 h4 {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .import-momster3 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .import-momster3 h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 10%;
+    margin-top: -33%;
+  }
+  .import-momster3 h4 {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .swiper1 {
+    margin: 0 auto !important;
+    margin-top: 10% !important;
+    width: 80%;
+  }
+  .swiper2 {
+    margin: 0 auto !important;
+    margin-top: 10% !important;
+    width: 80%;
+  }
+  .swiper3 {
+    margin: 0 auto !important;
+    margin-top: 10% !important;
+    width: 80%;
+  }
+  .all_info {
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .monsters {
+    width: 430px;
+  }
+  .monsters img {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .import-momster1 h3 {
+    font-size: 58px;
+  }
+  .import-momster1 h4 {
+    font-size: 22px;
+  }
+  .import-momster2 h3 {
+    font-size: 58px;
+  }
+  .import-momster2 h4 {
+    font-size: 22px;
+  }
+  .import-momster3 h3 {
+    font-size: 58px;
+  }
+  .import-momster3 h4 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .monsters {
+    width: 380px;
+  }
+  .monsters img {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .import-momster1 h3 {
+    font-size: 54px;
+  }
+  .import-momster1 h4 {
+    font-size: 19px;
+  }
+  .import-momster2 h3 {
+    font-size: 54px;
+  }
+  .import-momster2 h4 {
+    font-size: 19px;
+  }
+  .import-momster3 h3 {
+    font-size: 54px;
+  }
+  .import-momster3 h4 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .monsters {
+    width: 320px;
+  }
+  .monsters img {
+    width: 320px;
+  }
+}

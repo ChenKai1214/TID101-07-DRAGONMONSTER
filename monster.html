@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/monster.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/monster_rwd.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>魔物</title>
   </head>
   <body>
     <!-- 主選單 -->
-    <nav>
+    <!-- <nav>
       <ul>
         <li class="nav_logo">
           <a href="./index.html"><img src="./圖片/logo.png" alt="" /> </a>
@@ -17,19 +23,23 @@
         <li class="nav_info"><a href="./game.html">遊戲介紹</a></li>
         <li class="nav_info"><a href="./weaponry.html">狩獵武器</a></li>
         <li class="nav_info">
-          <a class="nav_monster" href="./monster.html">魔物</a>
+          <a class="nav_monster" href="./monsterAll.html">魔物</a>
         </li>
         <li class="nav_info"><a href="./buy.html">商品資訊</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <!--魔物  -->
     <main>
-      <span>
+      <!-- <span>
         <h1>魔物</h1>
-      </span>
-      <section>
+      </span> -->
+      <section class="">
+        <a href="./monsterAll.html"
+          ><img class="close" src="./圖片/close_white.png" alt=""
+        /></a>
         <img class="monster_bg" src="./圖片/monster1-main.png" alt="" />
+        <img class="monster_phone" src="./圖片/monster16-main-sp.png" alt="" />
         <article>
           <h2>金獅子</h2>
           <h3>
@@ -44,7 +54,7 @@
     </main>
 
     <!-- 選單 -->
-    <section>
+    <!-- <section>
       <ul class="monster_search">
         <li class="search">
           <a href="./monster.html"
@@ -86,7 +96,69 @@
     <figure>
       <img class="leftHead" src="./圖片/左箭頭 1.png" alt="" />
       <img class="rightHead" src="./圖片/右箭頭 1.png" alt="" />
-    </figure>
+    </figure> -->
+
+    <!-- 輪播 -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster1_1.png" alt=""
+          /></a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster2_1.png" alt=""
+          /></a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster3_1.png" alt=""
+          /></a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster4_1.png" alt=""
+          /></a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster5_1.png" alt=""
+          /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster6_1.png" alt=""
+          /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster7_1.png" alt=""
+          /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster8_1.png" alt=""
+          /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="./monster.html"
+            ><img src="./圖片/monster9_1.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
     <span class="btn-totop"
       ><a href="./monster.html"><img src="./圖片/btn-totop.png" alt="" /></a
     ></span>
@@ -96,5 +168,7 @@
         Copyright©本網站為TibaMe_前端設計工程師班學員專題成果作品,<br />本平台僅供學習、展示之用,不會用於商業,如使用到的圖片或文字有任何侵權,<br />請聯繫我的信箱:cj3wj4xm6@gmail.com,會立刻下架,謝謝。
       </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./css/monster.js"></script>
   </body>
 </html>

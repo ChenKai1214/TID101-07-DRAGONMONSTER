@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/weaponryInfo.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>遊戲介紹</title>
   </head>
   <body>
@@ -15,9 +19,10 @@
         </figure>
         <article class="weaponry_info">
           <a href="./weaponry.html"
-            ><img class="close" src="./圖片/關閉頁面.png" alt=""
+            ><img class="close" src="./圖片/close_white.png" alt=""
           /></a>
           <h1>太刀</h1>
+          <img class="weaponry_border" src="./圖片/雙小金框2.png" alt="" />
           <h3>
             太刀的魅力在於其出色的銳利度。以太刀不斷斬擊獵物，就能累積練氣計量表，並能藉此施展高威力的氣刃斬。還能使出極需技巧的動作，看破將至的攻擊並加以反擊。
           </h3>
@@ -33,7 +38,7 @@
           ></iframe>
         </article>
       </section>
-      <section class="info2">
+      <!-- <section class="info2">
         <img class="skill" src="./圖片/太刀技能1.jpg" alt="" />
         <span>
           <h2>居合拔刀術</h2>
@@ -42,7 +47,59 @@
             除了能令練氣計量表的自動上升量於一定時間內增加之餘，招式途中亦不會膽怯。
           </h3>
         </span>
-      </section>
+      </section> -->
     </main>
+
+    <span class="skill_title"><h4 class="skill_title-text">招式一覽</h4></span>
+    <!-- 輪播 -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <section class="info2">
+            <img class="skill" src="./圖片/太刀技能1-1.jpg" alt="" />
+            <span class="border">
+              <h2>居合拔刀術</h2>
+              <h3>
+                命中時能獲得練氣計量表自動上升效果。配合敵人的攻擊使出此招式，
+                除了能令練氣計量表的自動上升量於一定時間內增加之餘，招式途中亦不會膽怯。
+              </h3>
+            </span>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section class="info2">
+            <img class="skill" src="./圖片/太刀技能1-1.jpg" alt="" />
+            <span class="border">
+              <h2>居合拔刀術</h2>
+              <h3>
+                命中時能獲得練氣計量表自動上升效果。配合敵人的攻擊使出此招式，
+                除了能令練氣計量表的自動上升量於一定時間內增加之餘，招式途中亦不會膽怯。
+              </h3>
+            </span>
+          </section>
+        </div>
+        <div class="swiper-slide">
+          <section class="info2">
+            <img class="skill" src="./圖片/太刀技能1-1.jpg" alt="" />
+            <span class="border">
+              <h2>居合拔刀術</h2>
+              <h3>
+                命中時能獲得練氣計量表自動上升效果。配合敵人的攻擊使出此招式，
+                除了能令練氣計量表的自動上升量於一定時間內增加之餘，招式途中亦不會膽怯。
+              </h3>
+            </span>
+          </section>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./css/weaponry.js"></script>
   </body>
 </html>

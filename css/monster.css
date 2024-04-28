@@ -53,10 +53,65 @@ nav img {
 .nav_logo {
   margin-right: auto;
 }
+/* 漢堡 */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+  display: none;
+}
+.menu_close {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+}
+.hamburger {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: fixed;
+  display: none;
+}
+
+.hamburger a img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 40%;
+}
+.hamburger_ul {
+  height: 80%;
+  /* display: flex;
+  flex-direction: column; */
+}
+.hamburger_li {
+  text-align: center;
+  font-size: 50px;
+  /* padding-bottom: 4%; */
+  height: 13%;
+}
+.hamburger_li:hover a {
+  color: #3c86d1;
+  border-bottom: 3px solid #ff003d;
+}
 
 /* 魔物 */
+.close {
+  float: right;
+  margin-top: 105px;
+  margin-right: 5px;
+}
 main {
-  padding-top: 200px;
   padding-bottom: 200px;
 }
 span {
@@ -71,28 +126,34 @@ span {
 .monster_bg {
   width: 100%;
 }
+.monster_phone {
+  display: none;
+}
 h1 {
   font-size: 60px;
   font-weight: bolder;
 }
 article {
   width: 400px;
-  padding-left: 120px;
-  margin-top: -800px;
+  padding-left: 10%;
+  margin-top: -53%;
 }
 article h2 {
   font-size: 50px;
   font-weight: bolder;
-  padding-left: 110px;
-  padding-bottom: 20px;
+  padding-left: 30%;
+  padding-bottom: 5%;
+  text-shadow: 2px 3px 5px #4d4d4d;
 }
 article h3 {
   font-size: 30px;
   line-height: 1.5;
+  /* font-weight: bolder;
+  text-shadow: 2px 3px 5px #4d4d4d; */
 }
 
 /* 選單 */
-.monster_search {
+/* .monster_search {
   display: flex;
   padding-left: 60px;
 }
@@ -106,7 +167,7 @@ figure {
 }
 .rightHead {
   float: right;
-}
+} */
 .btn-totop {
   float: right;
   display: block;
@@ -116,12 +177,41 @@ figure {
 .btn-totop img {
   width: 120px;
 }
+/* 輪播 */
+.swiper {
+  /* --swiper-navigation-size: 0; */
+  width: 100%;
+}
+.swiper-button-prev {
+  color: white !important;
+}
+.swiper-button-prev:hover {
+  color: black !important;
+}
+.swiper-button-next {
+  color: white !important;
+}
+.swiper-button-next:hover {
+  color: black !important;
+}
+.swiper-button-prev img {
+  width: 50%;
+}
+.swiper-wrapper {
+  margin-left: 50px;
+}
+.swiper-slide img:hover {
+  border: 1px solid white;
+  filter: brightness(80%);
+}
 
 /* 頁尾  */
 footer {
   margin-top: 200px;
   padding-top: 10px;
-  height: 113px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  width: 100%;
   background-color: black;
   color: white;
 }

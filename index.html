@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index_rwd.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>首頁</title>
   </head>
   <body>
@@ -16,14 +22,51 @@
         <li class="nav_info"><a href="./news.html">最新資訊</a></li>
         <li class="nav_info"><a href="./game.html">遊戲介紹</a></li>
         <li class="nav_info"><a href="./weaponry.html">狩獵武器</a></li>
-        <li class="nav_info"><a href="./monster.html">魔物</a></li>
+        <li class="nav_info"><a href="./monsterAll.html">魔物</a></li>
         <li class="nav_info"><a href="./buy.html">商品資訊</a></li>
       </ul>
     </nav>
+    <!-- 漢堡選單 -->
+    <div class="menu">
+      <img src="./圖片/menu.png" alt="" />
+    </div>
+    <article class="hamburger">
+      <div class="menu_close">
+        <img src="./圖片/menu_close.png" alt="" />
+      </div>
+      <div>
+        <a href="./index.html"><img src="./圖片/logo1.svg" alt="" /></a>
+      </div>
+      <ul class="hamburger_ul">
+        <li class="hamburger_li"><a href="./news.html">最新資訊</a></li>
+        <li class="hamburger_li"><a href="./game.html">遊戲介紹</a></li>
+        <li class="hamburger_li"><a href="./weaponry.html">狩獵武器</a></li>
+        <li class="hamburger_li"><a href="./monsterAll.html">魔物</a></li>
+        <li class="hamburger_li"><a href="./buy.html">商品資訊</a></li>
+      </ul>
+    </article>
+
     <!-- 首頁圖片-->
     <header>
-      <img class="frontPage_logo" src="./圖片/logo.png" alt="" />
-      <img class="frontPage" src="./圖片/首頁圖片.jpg" alt="" />
+      <picture>
+        <source
+          class="frontPage_logo"
+          srcset="./圖片/logo2.svg"
+          media="(max-width: 750px)"
+        />
+        <img class="frontPage_logo" src="./圖片/logo1.svg" alt="" />
+      </picture>
+      <picture>
+        <!-- 頁面寬 < 750px時 -->
+        <source
+          class="frontPage"
+          srcset="./圖片/mv-am-sp1.jpg"
+          media="(max-width: 750px)"
+        />
+        <!-- 其他頁面寬時 則使用img的圖像 -->
+        <img class="frontPage" src="./圖片/首頁圖片.jpg" alt="" />
+      </picture>
+
       <img class="bolder_glod" src="./圖片/邊線金色.png" alt="" />
       <span class="nowBuy">
         <h3>超大型擴充內容</h3>
@@ -53,6 +96,65 @@
     <span class="news_text">
       <h1>最新資訊</h1>
     </span>
+    <div class="news_border"><img src="./圖片/銀框.png" alt="" /></div>
+    <!-- 輪播 -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide news">
+          <a href="./newsInfo.html">
+            <img src="./圖片/資訊_煌黑龍.jpg" alt="" />
+            <p class="info">紀念煌黑龍登場！ 每天派發裝飾品活動！</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide news">
+          <img src="./圖片/資訊_冰咒龍.jpg" alt="" />
+          <p class="info">
+            免費大型更新第五彈發佈矚目活動任務「歷戰王冰呪龍」登場！
+          </p>
+        </div>
+
+        <div class="swiper-slide news">
+          <a href="./newsInfo.html">
+            <img src="./圖片/資訊_秋季.jpg" alt="" />
+            <p class="info">《Monster》發售一週年，將舉辦星辰祭／月辰祭！</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide news">
+          <a href="./newsInfo.html">
+            <img src="./圖片/資訊_道具.jpg" alt="" />
+            <p class="info">「新世代！ 狩獵朋友感 謝包」發佈通知</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide news">
+          <a href="./newsInfo.html">
+            <img src="./圖片/資訊_冰牙龍.jpg" alt="" />
+            <p class="info">免費大型更新第四彈追加魔物 「霜刃冰牙龍」登場！</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide news">
+          <a href="./newsInfo.html">
+            <img src="./圖片/資訊_新手.jpg" alt="" />
+            <p class="info">
+              取得強力的「武器」和「防具」，一口氣衝上MASTER RANK！
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- <div class="news_border">
+      <img src="./圖片/雙邊框銀色2.png" alt="" />
+    </div>
     <section class="news_info">
       <ul>
         <a href="./newsInfo.html"><li>2024/3/20</li></a>
@@ -71,42 +173,68 @@
         >
       </ul>
       <img class="news_bg" src="./圖片/資訊_煌黑龍.jpg" alt="" />
-      <div class="morenews_btn">
-        <input
-          type="button"
-          value="更多資訊"
-          onclick="location.href='./news.html'"
-        />
-      </div>
     </section>
-
+     -->
+    <div class="morenews_btn">
+      <input
+        type="button"
+        value="更多資訊"
+        onclick="location.href='./news.html'"
+      />
+    </div>
+    <div class="news_border"><img src="./圖片/銀框1.png" alt="" /></div>
     <!------------ 主要內容------ -->
 
+    <!--遊戲介紹  -->
     <main>
-      <!--遊戲介紹  -->
-      <div class="main_1-text">
-        <figure class="main_1-title">遊戲介紹</figure>
-        <span class="main_1-text1">
+      <div class="main_1-Text">
+        <span class="main_1-text1" data-aos="zoom-out" data-aos-duration="1000">
           <h3>在壯麗的大自然中與魔物</h3>
           <h2>進行一場史詩式的決鬥！</h2>
         </span>
       </div>
+      <div class="main_1-text">
+        <figure class="main_1-title">遊戲介紹</figure>
+      </div>
       <article class="main_1">
         <div class="main-1">
           <a href="./game.html"
-            ><img class="main_1-1" src="./圖片/introduce_img1.png" alt=""
+            ><img
+              class="main_1-1"
+              src="./圖片/introduce_img1-1.png"
+              alt=""
+              data-aos="fade-right"
+              data-aos-duration="1300"
+              data-aos-delay="250"
           /></a>
         </div>
         <div class="main-2">
           <a href="./game.html"
-            ><img class="main_1-2" src="./圖片/introduce_img2.png" alt=""
+            ><img
+              class="main_1-2"
+              src="./圖片/introduce_img2.png"
+              alt=""
+              data-aos="fade-left"
+              data-aos-duration="1300"
+              data-aos-delay="250"
           /></a>
         </div>
       </article>
+      <div class="game_bottom-phone">
+        <div class="game_bottom_img">
+          >
+          <img src="./圖片/怪獸背景1.png" alt="" />
+        </div>
+      </div>
       <div class="main_1-text2">
-        <span>
-          <h3>化身成獵人, 接受任務享受狩獵的驚喜與興奮！</h3>
-          <h2>製作更武器和防具, 挑戰更強大的魔物！</h2>
+        <span
+          class="main_1-text2-text"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <h3>化身成獵人, 享受狩獵的驚喜與興奮！</h3>
+          <h2>製作武器和防具, 挑戰更強大的魔物！</h2>
         </span>
         <span class="game_btn1">
           <input
@@ -115,6 +243,15 @@
             onclick="location.href='./game.html'"
           />
         </span>
+      </div>
+      <div class="game_bottom-img">
+        <div
+          class="game_bottom_img"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img src="./圖片/怪獸背景1.png" alt="" />
+        </div>
       </div>
       <!-- <div class="video-background">
         <div class="YTPOverlay">
@@ -133,17 +270,23 @@
       </div> -->
 
       <!-- 狩獵武器 -->
-
-      <div class="main_2-text">
-        <figure class="main_2-title">狩獵武器</figure>
-      </div>
+      <spanv class="main_2-text-1">
+        <div class="main_2-text">
+          <figure class="main_2-title">狩獵武器</figure>
+        </div>
+      </spanv>
       <article class="main_2">
         <a href="./weaponry.html"
-          ><img src="./圖片/hunting weapons.png" alt=""
+          ><img class="main_2-img" src="./圖片/hunting weapons1.png" alt=""
         /></a>
       </article>
+
       <div class="main_2-text1">
-        <span class="main_2-text1-1">
+        <span
+          class="main_2-text1-1"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <h3>依各自遊玩風格，用各種武器狩獵！</h3>
           <h2>邁向更高的境界吧！</h2>
         </span>
@@ -155,7 +298,20 @@
           />
         </span>
       </div>
-
+      <div class="weaponry-bottomimg">
+        <div
+          class="weaponry_bottom_img"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img src="./圖片/人物背景1.png" alt="" />
+        </div>
+      </div>
+      <div class="weaponry-bottomimg_phone">
+        <div class="weaponry_bottom_img">
+          <img src="./圖片/人物背景1.png" alt="" />
+        </div>
+      </div>
       <!-- 魔物 -->
       <div class="main_3-text">
         <figure class="main_3-title">魔物</figure>
@@ -203,15 +359,28 @@
         </ul>
       </article>
       <div class="main_3-text1">
-        <div><img src="./圖片/mosters.png" alt="" /></div>
-        <span class="main_2-text1-1">
-          <h3>盡情進行狩獵吧！</h3>
-          <h2>邂逅未知的魔物！</h2>
+        <div class="main_3-text1_img">
+          <img
+            src="./圖片/mosters1.png"
+            alt=""
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          />
+        </div>
+        <span class="main_3-text1-1">
+          <div
+            class="main_3-text1-1-text"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <h3>盡情進行狩獵吧！</h3>
+            <h2>邂逅未知的魔物！</h2>
+          </div>
           <span class="game_btn3">
             <input
               type="button"
               value="了解更多"
-              onclick="location.href='./monster.html'"
+              onclick="location.href='./monsterAll.html'"
             />
           </span>
         </span>
@@ -223,13 +392,9 @@
       </div>
       <article class="main_4">
         <div class="main_4-1">
-          <div><img src="./圖片/buy1_main.jpg" alt="" /></div>
-          <span>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          <img class="main_4-img1" src="./圖片/buy1_main.jpg" alt="" />
+
+          <span class="main_4-info">
             <h4>DRAGON MONSTER RISE</h4>
             <ul>
               <li>發售日</li>
@@ -246,19 +411,14 @@
             <input
               class="buy1"
               type="button"
-              value="前往購買"
+              value="商品詳情"
               onclick="location.href='./buy.html'"
             />
           </span>
         </div>
         <div class="main_4-2">
-          <img src="./圖片/首頁圖片.jpg" alt="" />
-          <span>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          <img class="main_4-img2" src="./圖片/首頁圖片.jpg" alt="" />
+          <span class="main_4-info">
             <h4>DRAGON MONSTER SUNBREAK</h4>
             <ul>
               <li>發售日期:</li>
@@ -275,18 +435,18 @@
             <input
               class="buy2"
               type="button"
-              value="前往購買"
+              value="商品詳情"
               onclick="location.href='./buy.html'"
             />
           </span>
         </div>
       </article>
-      <div class="game_btn4">
+      <div>
         <span class="game_btn4">
           <input
             type="button"
             value="更多商品"
-            onclick="location.href='./buy.html'"
+            onclick="location.href='./buy2.html'"
           />
         </span>
       </div>
@@ -300,6 +460,13 @@
         </p>
       </footer>
     </main>
+    <script src="./css/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./css/index.js"></script>
   </body>
 </html>
-<!-- modestbranding=1&amp;autoplay=1&amp;loop=1&amp;playlist=SSZV5ma5PvQ&amp;start=3&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=iframe_YTP_1712738634761&amp;origin=https%3A%2F%2Fwww.monsterhunter.com&amp;allowfullscreen=true&amp;wmode=transparent&amp;iv_load_policy=3&amp;playsinline=1&amp;mute=1&amp;html5=1&amp;widgetid=1 -->

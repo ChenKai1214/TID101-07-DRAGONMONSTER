@@ -1,0 +1,1036 @@
+@media screen and (max-width: 1500px) {
+  .main_2-title {
+    font-size: 40px;
+  }
+}
+
+media screen and (max-width: 1480px) {
+  /* 遊戲介紹 */
+  .main_1-text2 h2 {
+    font-size: 50px;
+  }
+  .main_1-text2 h3 {
+    font-size: 39px;
+  }
+
+  /* 武器 */
+  .main_2-text1-1 h2 {
+    font-size: 50px;
+  }
+  .main_2-text1-1 h3 {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .main_3-text1 img {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 45px;
+  }
+  .main_1-text1 h3 {
+    font-size: 37px;
+  }
+  /* 武器 */
+  .main_2-text1-1 h2 {
+    font-size: 45px;
+  }
+  .main_2-text1-1 h3 {
+    font-size: 37px;
+  }
+
+  /* 魔物 */
+  .main_3 {
+    height: 34vw;
+  }
+  .main_3 li {
+    animation-duration: 22.5s;
+  }
+  .main_3 img {
+    width: 290px;
+  }
+  .game_btn3 {
+    margin-left: -15%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  /* 武器 */
+  .main_2-text1-1 h2 {
+    font-size: 45px;
+  }
+  .main_2-text1-1 h3 {
+    font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .main_1-text2 h2 {
+    font-size: 53px;
+  }
+  .main_1-text2 h3 {
+    font-size: 41px;
+  }
+
+  /* 魔物 */
+  .game_btn3 {
+    margin-left: -30%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .main_1-text2 h2 {
+    font-size: 51px;
+  }
+  .main_1-text2 h3 {
+    font-size: 41px;
+  }
+  /* 魔物 */
+  .main_3 {
+    height: 38vw;
+  }
+  .main_3 li {
+    animation-duration: 24.5s;
+  }
+  .main_3 img {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main_1-text2 h2 {
+    font-size: 48px;
+  }
+  .main_1-text2 h3 {
+    font-size: 39px;
+  }
+
+  .game_btn1 input {
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+  .main_3-text1-1 h2 {
+    font-size: 54px;
+  }
+  .main_3-text1-1 h3 {
+    font-size: 31px;
+  }
+
+  /* 武器 */
+  .main_2 img {
+    margin-top: -125px;
+  }
+
+  /* 魔物 */
+}
+
+@media screen and (max-width: 1150px) {
+  .main_1-text2 h2 {
+    font-size: 43px;
+  }
+  .main_1-text2 h3 {
+    font-size: 36px;
+  }
+
+  .main_3-text1 img {
+    width: 500px;
+  }
+
+  /* 商品 */
+  .main_4-text {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  /* 首頁圖片 */
+  .frontPage_logo {
+    width: 326px;
+  }
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 39px;
+  }
+  .main_1-text1 h3 {
+    font-size: 31px;
+  }
+  .main_1-title {
+    font-size: 45px;
+  }
+  .main_1-text2 h2 {
+    font-size: 40px;
+  }
+  .main_1-text2 h3 {
+    font-size: 25px;
+  }
+  .main_2-title {
+    font-size: 35px;
+  }
+
+  /* 魔物 */
+  .main_3-text {
+    margin-top: -50px;
+  }
+  .main_3 {
+    height: 42vw;
+  }
+  .main_3 li {
+    animation-duration: 26.5s;
+  }
+  .main_3 img {
+    width: 250px;
+  }
+  .main_3-title {
+    font-size: 42px;
+  }
+
+  /* 商品 */
+  .main_4 h4 {
+    margin-top: 10%;
+  }
+  .main_4-img1 {
+    margin-top: -5%;
+  }
+  .main_4-img2 {
+    margin-top: -5%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main_3-text1-1 h2 {
+    font-size: 50px;
+  }
+  .main_3-text1-1 h3 {
+    font-size: 32px;
+  }
+
+  /* 購買 */
+  .main_4 h4 {
+    font-size: 20px;
+  }
+  .main_4 li {
+    font-size: 14px;
+  }
+  .main_4 .buy1 {
+    font-size: 20px;
+  }
+  .main_4 .buy2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* 消息 */
+  .morenews_btn input {
+    font-size: 12px;
+  }
+
+  /* 遊戲介紹 */
+  .main_1-title {
+    font-size: 40px;
+  }
+  .game_btn1 input {
+    padding-left: 30%;
+    padding-right: 30%;
+    float: right;
+    margin-right: 30%;
+  }
+
+  /* 武器 */
+  .main_2-text {
+    margin-top: -20%;
+  }
+  .game_btn2 input {
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 30%;
+    margin-left: -10%;
+  }
+
+  /* 魔物 */
+  .main_3-title {
+    font-size: 37px;
+  }
+  .game_btn3 input {
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* 首頁圖片 */
+  .frontPage_logo {
+    width: 280px;
+  }
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 33px;
+  }
+  .main_1-text1 h3 {
+    font-size: 25px;
+  }
+  .main_1-title {
+    font-size: 35px;
+  }
+  .main_1-text2 h2 {
+    font-size: 35px;
+  }
+  .main_1-text2 h3 {
+    font-size: 27px;
+  }
+
+  /* 武器 */
+  .main_2 img {
+    margin-top: -95px;
+  }
+  .game_btn2 input {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 30%;
+    margin-left: -40%;
+  }
+  .main_2-title {
+    font-size: 30px;
+  }
+
+  /* 魔物 */
+  .main_3-text1 img {
+    width: 430px;
+  }
+  .game_btn3 input {
+    margin-left: 23.5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .game_btn1 input {
+    padding-left: 25%;
+    padding-right: 25%;
+    float: right;
+    margin-right: 30%;
+  }
+
+  /* 武器 */
+  .main_2-text1-1 h2 {
+    font-size: 35px;
+  }
+  .main_2-text1-1 h3 {
+    font-size: 27px;
+  }
+  .game_btn2 input {
+    margin-left: -5%;
+  }
+
+  /* 魔物 */
+  .main_3-title {
+    font-size: 30px;
+  }
+  .main_3-text1-1 h2 {
+    font-size: 45px;
+  }
+  .main_3-text1-1 h3 {
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main_1-text2 h2 {
+    font-size: 32px;
+  }
+  .main_1-text2 h3 {
+    font-size: 24px;
+  }
+  .game_btn2 input {
+    margin-left: -30%;
+  }
+
+  /* 魔物 */
+  .main_3 {
+    height: 44vw;
+  }
+  .main_3 li {
+    animation-duration: 28.5s;
+  }
+  .main_3 img {
+    width: 230px;
+  }
+  .game_btn3 input {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  /* 購買 */
+  .main_4 input {
+    margin-top: 7%;
+  }
+  .main_4 h4 {
+    font-size: 18px;
+  }
+  .main_4 li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* 首頁圖片 */
+  .frontPage_logo {
+    width: 250px;
+  }
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 29px;
+  }
+  .main_1-text1 h3 {
+    font-size: 21px;
+  }
+  .game_btn2 input {
+    margin-left: -60%;
+  }
+
+  /* 武器 */
+  .main_2 img {
+    margin-top: -65px;
+  }
+  .main_2-title {
+    font-size: 25px;
+  }
+
+  /* 魔物 */
+  .main_3-title {
+    font-size: 24px;
+  }
+  .main_3 img {
+    width: 210px;
+  }
+  .main_3-text1-1 h2 {
+    font-size: 40px;
+  }
+  .main_3-text1-1 h3 {
+    font-size: 29px;
+  }
+  .main_4-title {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    display: none;
+  }
+  .frontPage_logo {
+    width: 270px;
+    left: 33.5%;
+    top: 470px;
+  }
+  .menu {
+    display: block;
+  }
+  /* 首頁圖片 */
+  .nowBuy h3 {
+    margin-left: 29.5%;
+  }
+  .nowBuy h2 {
+    margin-left: 28%;
+  }
+  .nowBuy input {
+    margin-left: 26.5%;
+  }
+  .main_1-text1 {
+  }
+
+  /* 最新資訊 */
+  .news_text {
+    margin-top: 500px;
+  }
+  .news img {
+    /* width: 355px; */
+    width: 100%;
+  }
+  .swiper {
+    width: 83%;
+    margin-top: 5%;
+    margin-left: 8% !important;
+    overflow: hidden;
+  }
+  .swiper-slide {
+    /* width: 355px !important; */
+    width: 61% !important;
+  }
+  .news_border {
+    display: none;
+  }
+  .morenews_btn {
+  }
+  .morenews_btn input {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  /* 遊戲介紹 */
+  .main_1 {
+    height: 300px;
+  }
+  .main_1-1 {
+    width: 100%;
+    height: 100%;
+  }
+  .main_1-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .main_1-Text {
+    display: block;
+    margin: 0 auto;
+    margin-top: 23%;
+  }
+  .main_1-text1 h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .main_1-text1 h3 {
+    font-size: 42px;
+    text-align: center;
+  }
+  .main_1-text {
+    margin-top: 1%;
+  }
+  .main_1-text2 {
+    flex-wrap: wrap;
+  }
+  .main_1-text2 h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .main_1-text2 h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .game_btn1 {
+    width: 80%;
+  }
+  .game_btn1 input {
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 230px;
+    /* margin-left: 170%; */
+  }
+  .game_bottom-img {
+    margin-top: -300px;
+  }
+
+  /* 武器 */
+  .main_2 {
+    height: 330px;
+  }
+  .main_2-img {
+    width: 100%;
+    height: 100%;
+  }
+  .main_2-text {
+    margin-top: 20%;
+  }
+  .main_2-text1 {
+    height: 400px;
+    flex-wrap: wrap;
+  }
+  .game_btn2 {
+    width: 100%;
+    margin-top: 150px;
+  }
+  .game_btn2 input {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .weaponry-bottomimg {
+    margin-top: -330px;
+  }
+  .weaponry-bottomimg img {
+    width: 70%;
+    height: 270%;
+  }
+
+  /* 魔物 */
+  .main_3 {
+    /* height: 50vw; */
+    height: 300px;
+  }
+  .main_3 li {
+    animation-duration: 30s;
+  }
+  .main_3 img {
+    width: 210px;
+  }
+  .main_3-text {
+    margin-top: -10%;
+  }
+  .main_3-text1 {
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    /* background: url(../圖片/mosters1.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat; */
+    /* transition: opacity 0.5s ease; */
+    /* opacity: 0; */
+  }
+  .main_3-text1-1 {
+    width: 650px;
+  }
+  .main_3-text1-1-text {
+    margin-top: -84%;
+    padding-left: 20%;
+    text-align: center;
+  }
+  .main_3-text1-1-text h2 {
+    font-size: 45px;
+  }
+  .main_3-text1-1-text h3 {
+    font-size: 35px;
+  }
+  .main_3-text1_img {
+    margin-top: 100px;
+  }
+  .main_3-text1 img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  .game_btn3 input {
+    margin-top: 58%;
+    width: 63%;
+    margin-left: 57%;
+  }
+
+  /* 購買 */
+  .main_4-title {
+    margin-top: 25%;
+  }
+  .main_4 {
+    height: 400px;
+    flex-wrap: wrap;
+  }
+  .main_4 li {
+    font-size: 10px;
+  }
+  .main_4-1 {
+    width: 100%;
+  }
+  .main_4-2 {
+    width: 100%;
+  }
+  .main_4-1 img {
+    margin-left: 16%;
+    margin-top: -0.5%;
+  }
+  .main_4-2 img {
+    margin-left: 16%;
+    margin-top: -0.5%;
+  }
+  .main_4-info {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+  }
+  .main_4 h4 {
+    margin-top: 22%;
+  }
+  .main_4-info ul {
+    display: none;
+  }
+  .game_btn4 input {
+    width: 60%;
+    margin-top: 12%;
+    margin-right: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .game_bottom-img {
+    display: block;
+    display: none;
+    width: 100%;
+  }
+  .game_bottom-phone {
+    display: block;
+  }
+  .game_bottom-phone img {
+    width: 80%;
+  }
+  .main_1-text2-text {
+    margin-top: -40%;
+  }
+  .weaponry-bottomimg {
+    display: none;
+  }
+  .weaponry-bottomimg_phone img {
+    display: block;
+    width: 70%;
+    margin-top: -55%;
+  }
+
+  /* 頁尾 */
+  footer {
+    margin-top: 300px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .frontPage_logo {
+    width: 253px;
+    left: 33.5%;
+    top: 430px;
+  }
+  /* 首頁圖片 */
+  .nowBuy h3 {
+    margin-left: 27.5%;
+  }
+  .nowBuy h2 {
+    margin-left: 26%;
+  }
+  .nowBuy input {
+    margin-left: 24.5%;
+  }
+
+  .main_1-text2 h2 {
+    font-size: 30px;
+  }
+  .main_1-text2 h3 {
+    font-size: 24px;
+  }
+
+  /* 魔物 */
+  .main_3-title {
+    font-size: 22px;
+  }
+
+  .weaponry-bottomimg_phone img {
+    display: block;
+    width: 75%;
+    margin-top: -58%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .frontPage_logo {
+    width: 230px;
+    left: 33.5%;
+    top: 400px;
+  }
+  .nowBuy h3 {
+    margin-left: 24.5%;
+  }
+  .nowBuy h2 {
+    margin-left: 25%;
+  }
+  .nowBuy input {
+    margin-left: 23.5%;
+  }
+
+  .main_1-title {
+    font-size: 30px;
+  }
+  .game_bottom-phone {
+    margin-top: 5%;
+  }
+  .main_1-text2-text {
+    margin-top: -45%;
+  }
+
+  /* 武器 */
+  .main_2-text {
+    margin-top: 30%;
+  }
+  .main_2-title {
+    font-size: 20px;
+  }
+
+  /* 魔物 */
+  .main_3 {
+    /* height: 54vw; */
+  }
+  .main_3 li {
+    animation-duration: 31s;
+  }
+  .main_3 img {
+    width: 190px;
+  }
+
+  .weaponry-bottomimg_phone img {
+    display: block;
+    width: 75%;
+    margin-top: -63%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .frontPage_logo {
+    width: 215px;
+    left: 33.5%;
+    top: 360px;
+  }
+  /* 最新資訊 */
+  .news_text h1 {
+    font-size: 50px;
+  }
+  .news_text {
+    background: url(../圖片/標題邊框加金框1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 400px;
+  }
+
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .main_1-text1 h3 {
+    font-size: 37px;
+    text-align: center;
+  }
+  .main_1-title {
+    font-size: 25px;
+  }
+  .main_2-text {
+    margin-top: 40%;
+  }
+
+  /* 武器 */
+  .main_2-text1-1 h2 {
+    font-size: 30px;
+  }
+  .main_2-text1-1 h3 {
+    font-size: 22px;
+  }
+  .weaponry-bottomimg_phone img {
+    display: block;
+    width: 75%;
+    margin-top: -67%;
+  }
+  .game_btn3 input {
+    margin-top: 50%;
+  }
+  .main_3-text1-1-text {
+    margin-top: -91%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .frontPage_logo {
+    width: 200px;
+    left: 33.5%;
+    top: 320px;
+  }
+  .main_2-title {
+    font-size: 17px;
+  }
+  .game_btn3 input {
+    margin-top: 50%;
+  }
+  .main_3-text1-1-text {
+    margin-top: -95%;
+  }
+  /* 魔物 */
+  .main_3 {
+    /* height: 58vw; */
+    margin-top: 5px;
+  }
+  .main_3-title {
+    font-size: 25px;
+  }
+  .main_3 li {
+    animation-duration: 32s;
+  }
+  .main_3 img {
+    width: 170px;
+  }
+
+  .weaponry-bottomimg_phone img {
+    display: block;
+    width: 75%;
+    margin-top: -75%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .nowBuy h3 {
+    margin-left: 24.5%;
+  }
+  .nowBuy h2 {
+    margin-left: 21%;
+  }
+  .nowBuy input {
+    margin-left: 19.5%;
+  }
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .main_1-text1 h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .main_1-title {
+    font-size: 20px;
+  }
+  .main_1-text2 h2 {
+    font-size: 25px;
+  }
+  .main_1-text2 h3 {
+    font-size: 19px;
+  }
+  .game_btn1 input {
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 180px;
+  }
+  .game_bottom-img {
+    margin-top: -250px;
+  }
+
+  /* 武器 */
+  .main_2 img {
+    margin-top: -45px;
+  }
+  .game_btn2 input {
+    text-align: center;
+  }
+  .main_3-text1-1-text {
+    margin-top: -105%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .frontPage_logo {
+    width: 200px;
+    left: 33.5%;
+    top: 290px;
+  }
+  /* 武器 */
+  .main_2-text1-1 h2 {
+    font-size: 19px;
+  }
+  .main_2-text1-1 h3 {
+    font-size: 12px;
+  }
+  .game_btn2 {
+    margin-top: 10px;
+  }
+  .main_3-text1-1-text {
+    margin-top: -105%;
+  }
+
+  /* 商品 */
+  .main_4 .buy1 {
+    font-size: 15px;
+    margin-left: 12%;
+  }
+  .main_4 .buy2 {
+    font-size: 15px;
+    margin-left: 12%;
+  }
+  .weaponry-bottomimg_phone img {
+    display: block;
+    width: 75%;
+    margin-top: -80%;
+  }
+  .main_4-title {
+    /* margin-top: -40%; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .frontPage_logo {
+    width: 200px;
+    left: 33.5%;
+    top: 250px;
+  }
+  .nowBuy h3 {
+    margin-left: 21.5%;
+  }
+  .nowBuy h2 {
+    margin-left: 20%;
+  }
+  .nowBuy input {
+    margin-left: 15.5%;
+  }
+
+  .game_btn1 input {
+    margin-right: -7%;
+  }
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .main_1-text1 h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .game_bottom-phone {
+    margin-top: 10%;
+  }
+  .main_1-text2-text {
+    margin-top: -50%;
+  }
+  /* 魔物 */
+  .main_3 li {
+    animation-duration: 32s;
+  }
+  .main_3 img {
+    width: 150px;
+  }
+  .main_3 {
+    /* height: 59vw; */
+    margin-top: 8px;
+  }
+  .main_3-title {
+    font-size: 23px;
+  }
+  .main_3-text1-1-text {
+    margin-top: -110%;
+  }
+
+  /* 商品 */
+  .main_4 .buy1 {
+    margin-left: 15%;
+  }
+  .main_4 .buy2 {
+    margin-left: 15%;
+  }
+  .weaponry-bottomimg_phone img {
+    margin-top: -85%;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .nowBuy input {
+    margin-left: 12.5%;
+  }
+  /* 遊戲介紹 */
+  .main_1-text1 h2 {
+    font-size: 33px;
+    text-align: center;
+  }
+  .main_1-text1 h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .main_3-text1-1-text {
+    margin-top: -115%;
+  }
+}

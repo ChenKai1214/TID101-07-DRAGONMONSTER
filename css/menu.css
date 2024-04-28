@@ -1,0 +1,13 @@
+@media screen and (max-width: 751px) {
+  nav {
+    display: none;
+  }
+  .frontPage_logo {
+    width: 270px;
+    left: 33.5%;
+    top: 470px;
+  }
+  .menu {
+    display: block;
+  }
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/newsInfo.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/newsinfo_rwd.css" />
     <title>遊戲介紹</title>
   </head>
   <body>
@@ -18,39 +20,88 @@
         </li>
         <li class="nav_info"><a href="./game.html">遊戲介紹</a></li>
         <li class="nav_info"><a href="./weaponry.html">狩獵武器</a></li>
-        <li class="nav_info"><a href="./monster.html">魔物</a></li>
+        <li class="nav_info"><a href="./monsterAll.html">魔物</a></li>
         <li class="nav_info"><a href="./buy.html">商品資訊</a></li>
       </ul>
     </nav>
-
-    <!--資訊內文 -->
-    <main class="news">
-      <img class="news_line" src="./圖片/細邊框上.png" alt="" />
-      <h2 class="text1">
-        紀念煌黑龍登場！<br />
-        每天派發裝飾品活動！
-      </h2>
-      <img class="news_line2" src="./圖片/細邊框.png" alt="" />
-      <img class="news_even1" src="./圖片/even1.png" alt="" />
-      <div>
-        <h2 class="text2">活動資訊</h2>
+    <!-- 漢堡選單 -->
+    <div class="menu">
+      <img src="./圖片/menu.png" alt="" />
+    </div>
+    <div class="hamburger">
+      <div class="menu_close">
+        <img src="./圖片/menu_close.png" alt="" />
       </div>
-      <p>活動日期: 2024/3/20~2024/5/30</p>
-      <p>活動說明:</p>
-      <article>
-        <img class="news_even2" src="./圖片/even1_1.jpg" alt="" />
-        <h3>
+      <div>
+        <a href="./index.html"><img src="./圖片/logo1.svg" alt="" /></a>
+      </div>
+      <ul class="hamburger_ul">
+        <li class="hamburger_li">
+          <a class="menu_news" href="./news.html">最新資訊</a>
+        </li>
+        <li class="hamburger_li"><a href="./game.html">遊戲介紹</a></li>
+        <li class="hamburger_li"><a href="./weaponry.html">狩獵武器</a></li>
+        <li class="hamburger_li"><a href="./monsterAll.html">魔物</a></li>
+        <li class="hamburger_li"><a href="./buy.html">商品資訊</a></li>
+      </ul>
+    </div>
+    <!--資訊內文 -->
+
+    <main class="news">
+      <img class="news_line" src="./圖片/sec_bg-t.jpg" alt="" />
+
+      <span class="news_title">
+        <img class="news_line1" src="./圖片/大金框.png" alt="" />
+        <h2 class="text1">
+          紀念煌黑龍登場！<br />
+          每天派發裝飾品活動！
+        </h2>
+        <img class="news_line1" src="./圖片/大金框下.png" alt="" />
+      </span>
+      <img class="news_even1" src="./圖片/even1.png" alt="" />
+
+      <section>
+        <img src="" alt="" />
+        <img class="news_line1" src="./圖片/細邊框上 1.png" alt="" />
+        <h2 class="text2">活動資訊</h2>
+        <img class="news_line1" src="./圖片/細邊框 1.png" alt="" />
+
+        <p>活動日期: 2024/3/20~2024/5/30</p>
+        <p>活動說明:</p>
+      </section>
+      <article class="newEven1">
+        <img class="news_even1" src="./圖片/even1_1.jpg" alt="" />
+        <h3 class="news_even1-text">
           增加特別任務，逼近新發現魔物「煌黑龍」的真身！
           只要完成結局及偵查任務之調查，再團長對話即可承接特別任務。
         </h3>
+      </article>
+      <div class="newEven2">
+        <h3>
+          會改變屬性的特殊魔物。<br />
+          改變屬性後，煌黑龍的攻擊屬性和弱點屬性會隨之改變！
+        </h3>
+      </div>
+      <article class="newEven3">
+        <img class="news_even2" src="./圖片/img02.jpg" alt="" />
+        <img class="news_even3" src="./圖片/img04.jpg" alt="" />
+      </article>
+      <article class="newEven4">
+        <h3>
+          透過持續給予有效的屬性傷害，可削弱煌黑龍發出的強力衝擊波。
+          煌黑龍施放衝擊波期間，玩家仍可使用回復道具。
+          活用生命大粉塵等道具，跟同伴互相協力對付煌黑龍吧。
+        </h3>
+        <img class="news_even4" src="./圖片/img05.jpg" alt="" />
       </article>
       <span>
         <input
           type="button"
           value="返回"
-          onclick="location.href='./最新資訊.html'"
+          onclick="location.href='./news.html'"
         />
       </span>
+      <img class="news_line" src="./圖片/sec_bg-b.jpg" alt="" />
     </main>
     <!-- 頁尾 -->
     <footer>
@@ -58,5 +109,7 @@
         Copyright©本網站為TibaMe_前端設計工程師班學員專題成果作品,<br />本平台僅供學習、展示之用,不會用於商業,如使用到的圖片或文字有任何侵權,<br />請聯繫我的信箱:cj3wj4xm6@gmail.com,會立刻下架,謝謝。
       </p>
     </footer>
+    <script src="./css/menu.js"></script>
+    <script src="./css/newsinfo.js"></script>
   </body>
 </html>

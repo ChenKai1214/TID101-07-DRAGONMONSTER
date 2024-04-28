@@ -1,0 +1,290 @@
+@media screen and (max-width: 1400px) {
+  main {
+    margin-top: -25%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .gameinfo {
+    /* padding-top: 25%; */
+    font-size: 30px;
+  }
+  .weaponry1_text {
+    font-size: 80px;
+  }
+  .weaponry2_text {
+    font-size: 80px;
+  }
+  .weaponry3_text {
+    font-size: 80px;
+  }
+  .weaponry4_text {
+    font-size: 80px;
+  }
+  .weaponry5_text {
+    font-size: 80px;
+  }
+  .weaponry5 {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    margin-top: -28%;
+  }
+  .weaponry1_text {
+    font-size: 70px;
+  }
+  .gameinfo {
+    padding-top: 30%;
+    font-size: 28px;
+  }
+  .weaponry2_text {
+    font-size: 70px;
+  }
+  .weaponry3_text {
+    font-size: 70px;
+  }
+  .weaponry4_text {
+    font-size: 70px;
+  }
+  .weaponry5_text {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  main {
+    margin-top: -30%;
+  }
+  .gameinfo {
+    padding-top: 35%;
+    font-size: 28px;
+  }
+  .weaponry3_text {
+    font-size: 68px;
+  }
+  .weaponry5_text {
+    font-size: 68px;
+  }
+  .weaponry3_img {
+    padding-top: 12%;
+  }
+  .weaponry5_img {
+    padding-top: 12%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    margin-top: -35%;
+  }
+  .gameinfo {
+    padding-top: 40%;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .weaponry1_text {
+    font-size: 60px;
+  }
+  .weaponry2_text {
+    font-size: 60px;
+  }
+  .weaponry3_text {
+    font-size: 60px;
+  }
+  .weaponry4_text {
+    font-size: 60px;
+  }
+  .weaponry5_text {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    margin-top: -38%;
+  }
+  .gameinfo {
+    padding-top: 48%;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: -50%;
+  }
+  .gameinfo {
+    padding-top: 53%;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    overflow: hidden;
+  }
+  .weaponry1 {
+    width: 100%;
+  }
+  .weaponry2 {
+    width: 100%;
+  }
+  .weaponry3 {
+    width: 100%;
+  }
+  .weaponry4 {
+    width: 100%;
+  }
+  .weaponry5 {
+    width: 100%;
+  }
+  .weaponry1_text {
+    font-size: 80px;
+  }
+  .weaponry2_text {
+    width: 50%;
+    font-size: 80px;
+  }
+  .weaponry3_text {
+    width: 50%;
+    font-size: 80px;
+  }
+  .weaponry4_text {
+    width: 50%;
+    font-size: 80px;
+  }
+  .weaponry5_text {
+    width: 50%;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    margin-top: -59%;
+  }
+  .gameinfo {
+    padding-top: 57%;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    margin-top: -69%;
+  }
+  .gameinfo {
+    padding-top: 65%;
+    font-size: 17px;
+  }
+  .weaponry1_text {
+    font-size: 75px;
+  }
+  .weaponry2_text {
+    font-size: 75px;
+  }
+  .weaponry3_text {
+    font-size: 75px;
+  }
+  .weaponry4_text {
+    font-size: 75px;
+  }
+  .weaponry5_text {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main {
+    margin-top: -83%;
+  }
+  .gameinfo {
+    padding-top: 70%;
+    font-size: 16px;
+  }
+  .weaponry1_text {
+    font-size: 70px;
+  }
+  .weaponry2_text {
+    font-size: 70px;
+  }
+  .weaponry3_text {
+    font-size: 70px;
+  }
+  .weaponry4_text {
+    font-size: 70px;
+  }
+  .weaponry5_text {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 500px) {
+  main {
+    margin-top: -89%;
+  }
+  .gameinfo {
+    padding-top: 80%;
+    font-size: 16px;
+  }
+  .weaponry1_text {
+    font-size: 65px;
+  }
+  .weaponry2_text {
+    font-size: 65px;
+  }
+  .weaponry3_text {
+    font-size: 65px;
+  }
+  .weaponry4_text {
+    font-size: 65px;
+  }
+  .weaponry5_text {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 450px) {
+  main {
+    margin-top: -92%;
+  }
+  .gameinfo {
+    padding-top: 87%;
+    font-size: 14px;
+  }
+  .weaponry1_text {
+    font-size: 60px;
+  }
+  .weaponry2_text {
+    font-size: 60px;
+  }
+  .weaponry3_text {
+    font-size: 60px;
+  }
+  .weaponry4_text {
+    font-size: 60px;
+  }
+  .weaponry5_text {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .weaponry1_text {
+    font-size: 57px;
+  }
+  .weaponry2_text {
+    font-size: 57px;
+  }
+  .weaponry3_text {
+    font-size: 50px;
+  }
+  .weaponry4_text {
+    font-size: 57px;
+  }
+  .weaponry5_text {
+    font-size: 57px;
+  }
+}

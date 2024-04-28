@@ -48,14 +48,81 @@ nav img {
 .nav_logo {
   margin-right: auto;
 }
+/* 漢堡 */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+  display: none;
+}
+.menu_buy {
+  border-bottom: 3px solid #3c86d1;
+}
+.menu_close {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+}
+.hamburger {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: fixed;
+  display: none;
+}
+
+.hamburger a img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 40%;
+}
+.hamburger_ul {
+  height: 80%;
+  /* display: flex;
+  flex-direction: column; */
+}
+.hamburger_li {
+  text-align: center;
+  font-size: 50px;
+  /* padding-bottom: 4%; */
+  height: 13%;
+}
+.hamburger_li:hover a {
+  color: #3c86d1;
+  border-bottom: 3px solid #ff003d;
+}
 
 /* 商品 */
 main {
   width: 1253px;
   margin: 0 auto;
   padding-top: 100px;
-  background-color: white;
+  background-color: #1f0555;
   border: 1px solid black;
+}
+
+/* 輪播 */
+.swiper {
+  width: 94.5%;
+  margin-left: -10px !important;
+  --swiper-pagination-color: white;
+}
+.swiper-slide img {
+  width: 94.5%;
+}
+.swiper-pagination {
+  margin-top: -100px !important;
 }
 
 /* 商品上半部  */
@@ -72,9 +139,11 @@ main {
   width: 773px;
 }
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   padding-right: 20px;
   padding-bottom: 20px;
+  color: #fdc128;
+  font-weight: bolder;
 }
 .buy_bg {
   width: 742px;
@@ -84,7 +153,18 @@ h1 {
 .buy_info h3 {
   padding-left: 10px;
   padding-right: 20px;
+  padding-bottom: 20px;
+  color: #fdc128;
+  padding-left: 1%;
+  line-height: 20px;
+}
+.buy_info div {
   padding-bottom: 50px;
+  padding-left: 1%;
+}
+.buy_info li {
+  color: #fdc128;
+  padding-bottom: 3px;
 }
 .buy_money {
   padding-top: 80px;
@@ -96,6 +176,19 @@ h1 {
   padding-left: 90px;
   padding-bottom: 50px;
 }
+.buy_money .main-Discount {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  padding-bottom: 5px;
+}
+.buy_money .main-Discount_money {
+  font-size: 25px;
+  text-decoration: line-through;
+  color: #fdc128;
+  margin-left: 2%;
+}
 input {
   margin-left: 20px;
   margin-top: 50px;
@@ -105,7 +198,12 @@ input {
   padding-right: 120px;
   background-color: #b01439;
   font-size: 48px;
+  font-weight: bolder;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
+}
+input:hover {
+  color: #fdc128;
+  filter: brightness(120%);
 }
 
 /* 商品下半部  */
@@ -121,6 +219,8 @@ input {
 .buy_more p {
   font-size: 30px;
   padding-bottom: 30px;
+  color: #fdc128;
+  font-weight: bolder;
 }
 .buy_more img {
   width: 284px;
@@ -128,26 +228,55 @@ input {
   padding-right: 10px;
 }
 .buy_more h3 {
-  font-size: 30px;
+  font-size: 25px;
+  color: #fdc128;
+  padding-bottom: 5px;
+}
+span {
+  display: flex;
+  flex-direction: column;
+}
+.buy_more-li:hover img {
+  filter: brightness(70%);
+}
+.buy_more-li:hover .buy_more-title {
+  color: #b01439;
 }
 .buy_money2-1 {
   align-self: center;
-  margin-left: -500px;
+  /* margin-top: 80%;
+  margin-left: -200%; */
   font-weight: bolder;
 }
 .buy_money2-2 {
   align-self: center;
-  margin-left: -450px;
+  /* margin-left: -32%; */
   font-weight: bolder;
+  text-decoration: line-through;
 }
 .buy_money2-3 {
   align-self: center;
-  margin-left: -545px;
+  /* margin-left: -39%; */
   font-weight: bolder;
 }
 .buy_money2-4 {
   align-self: center;
-  margin-left: -540px;
+  /* margin-left: -38.5%; */
+  font-weight: bolder;
+  text-decoration: line-through;
+}
+.Discount {
+  background-color: #ff003d;
+  font-size: 20px;
+  color: #fdc128;
+  width: 13%;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.Discount-money {
+  font-size: 30px;
+  color: #ff003d;
   font-weight: bolder;
 }
 .buy_line2 {
@@ -166,9 +295,11 @@ input {
 
 /* 頁尾  */
 footer {
-  margin-top: 180px;
+  margin-top: 200px;
   padding-top: 10px;
-  height: 113px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  width: 100%;
   background-color: black;
   color: white;
 }
