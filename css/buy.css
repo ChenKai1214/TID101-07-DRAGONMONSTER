@@ -105,7 +105,7 @@ nav img {
 
 /* 商品 */
 main {
-  width: 1253px;
+  width: 80%;
   margin: 0 auto;
   padding-top: 100px;
   background-color: #1f0555;
@@ -127,16 +127,17 @@ main {
 
 /* 商品上半部  */
 .buy_line {
-  width: 1253px;
+  width: 100%;
 }
 .buy_main {
   display: flex;
   padding-top: 50px;
   padding-left: 70px;
   border-bottom: 1px solid black;
+  /* width: 80%; */
 }
 .buy_info {
-  width: 773px;
+  width: 60%;
 }
 h1 {
   font-size: 60px;
@@ -144,6 +145,7 @@ h1 {
   padding-bottom: 20px;
   color: #fdc128;
   font-weight: bolder;
+  text-shadow: 2px 3px 5px #4d4d4d;
 }
 .buy_bg {
   width: 742px;
@@ -167,14 +169,16 @@ h1 {
   padding-bottom: 3px;
 }
 .buy_money {
-  padding-top: 80px;
+  width: 40%;
+  padding-top: 15%;
 }
 .buy_money h2 {
   font-size: 60px;
   font-weight: bolder;
   color: #fdc128;
-  padding-left: 90px;
-  padding-bottom: 50px;
+  text-align: center;
+  /* padding-left: 90px; */
+  padding-bottom: 10%;
 }
 .buy_money .main-Discount {
   width: 100%;
@@ -190,14 +194,16 @@ h1 {
   margin-left: 2%;
 }
 input {
+  width: 80%;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 120px;
-  padding-right: 120px;
+  /* padding-left: 120px; */
+  /* padding-right: 20%; */
   background-color: #b01439;
   font-size: 48px;
+  text-align: center;
   font-weight: bolder;
   box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
 }
@@ -280,7 +286,7 @@ span {
   font-weight: bolder;
 }
 .buy_line2 {
-  width: 1253px;
+  width: 100%;
   transform: rotate(180deg);
 }
 .btn-totop {

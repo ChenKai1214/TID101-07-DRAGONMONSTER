@@ -1,0 +1,42 @@
+@media screen and (max-width: 1100px) {
+  .buy_info h1 {
+    font-size: 40px;
+  }
+  .buy_money h2 {
+    font-size: 40px;
+  }
+  .buy_money input {
+    font-size: 40px;
+  }
+  .Discount {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .buy_top_info h3 {
+    font-size: 13px;
+  }
+  .buy_top_info li {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .buy_top_info h3 {
+    font-size: 10px;
+  }
+  .buy_top_info li {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Discount {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .buy_info h1 {
+    font-size: 27px;
+  }
+}

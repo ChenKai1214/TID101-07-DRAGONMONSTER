@@ -4,8 +4,9 @@ body {
   width: 100%;
   background: url(../圖片/首頁背景.jpg);
   background-attachment: fixed;
-  /* background-repeat: no-repeat; */
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
 body h1 {
   text-align: center;
@@ -483,6 +484,7 @@ section img {
 .game_bottom-phone {
   width: 100%;
   display: none;
+  margin-left: -2%;
   background-repeat: no-repeat;
 }
 .game_bottom_img {
@@ -822,6 +824,7 @@ section img {
   width: 33%;
   height: 80%;
   transform: skewY(13.59deg);
+  border-radius: 20px;
 }
 .main_4-img2 {
   /* width: 270px;
@@ -829,6 +832,7 @@ section img {
   width: 33%;
   height: 80%;
   transform: skewY(13.59deg);
+  border-radius: 20px;
 }
 .main_4-info {
   /* box-sizing: border-box; */

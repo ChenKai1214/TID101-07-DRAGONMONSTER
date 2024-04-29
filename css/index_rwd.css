@@ -534,6 +534,10 @@ media screen and (max-width: 1480px) {
     width: 100%;
     height: 100%;
   }
+  .main_2 img {
+    width: 100%;
+    height: 450px;
+  }
   .main_2-text {
     margin-top: 20%;
   }
@@ -811,7 +815,7 @@ media screen and (max-width: 1480px) {
     font-size: 30px;
   }
   .main_2-text1-1 h3 {
-    font-size: 22px;
+    font-size: 25px;
   }
   .weaponry-bottomimg_phone img {
     display: block;
@@ -920,10 +924,10 @@ media screen and (max-width: 1480px) {
   }
   /* 武器 */
   .main_2-text1-1 h2 {
-    font-size: 19px;
+    font-size: 23px;
   }
   .main_2-text1-1 h3 {
-    font-size: 12px;
+    font-size: 20px;
   }
   .game_btn2 {
     margin-top: 10px;

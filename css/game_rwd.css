@@ -221,6 +221,12 @@
   .game3_text {
     margin: 0 auto;
   }
+  .btn-totop {
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 749px) {
